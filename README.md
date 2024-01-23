@@ -5,21 +5,7 @@ A continuously updated project about some thoughts of **practising kendo**.
 ## Table of Contents
 
 - [Checklist before practice](checklist_before_practice.md)
-
-
-- Suburi checklist
-- Why practising Kendo?
-- Efficient communicator
-- Mindset, Thought loop and behavior loop
-
-
-## TODO
-
-- Commonly used terms in training
-- A list of Kendo literatures
-- Common issues in practice
-- How to check Bogu
-- Injury
+- [Suburi checklist]()
 
 ## How you can help improve this project?
 
