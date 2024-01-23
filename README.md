@@ -9,7 +9,7 @@ A continuously updated project about some thoughts of **practising kendo**.
 
 ## How you can help improve this project?
 
-- You can use `Issues` tab to create new quests, or discuss about a topic
+- You can use `Issues` tab to create new requests, or discuss some topics.
 
 ## Contributor
 
