@@ -5,10 +5,12 @@
 - two or three Shinai
   - recommended to prepare three Shinai, two is required
 - check the Shinai condition
-  - no breaks
+  - no breaks or cracks
   - no loose string
   - Nagayuyi is tight
 - Tsuba and Tsubadome
+
+Don't use broken Shinai in practice
 
 ## Bokuto
 
@@ -31,4 +33,11 @@
 
 - `What I want to practice`
 - `What I want to improve`
+  - recommend to have two in mind
 - `What things I learnt from last practice I can improve`
+- make sure to focus on the practice
+
+## Body condition
+
+- check if body is in good condition
+- `Do I need tape some place`
