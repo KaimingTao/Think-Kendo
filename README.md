@@ -5,7 +5,9 @@ A continuously updated project about some thoughts of **practising kendo**.
 ## Table of Contents
 
 - [Checklist before practice](checklist_before_practice.md)
-- [Suburi checklist]()
+- [Suburi checklist](./suburi_checklist.md)
+- [Kendo Books, basic list](./Book_list_1.md)
+- [Basic mindset](./mindset.md)
 
 ## How you can help improve this project?
 
