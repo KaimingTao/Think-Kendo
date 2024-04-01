@@ -1,13 +1,20 @@
 # Thinking Kendo
 
-A continuously updated project about some thoughts of **practising kendo**.
+A small project about some thoughts of **practicing kendo**.
 
 ## Table of Contents
 
 - [Checklist before practice](checklist_before_practice.md)
 - [Suburi checklist](./suburi_checklist.md)
-- [Kendo Books, basic list](./Book_list_1.md)
+
+
+## Training mindset
+
 - [Basic mindset](./mindset.md)
+
+## Resources
+
+- [Kendo Books, basic list](./Book_list_1.md)
 
 ## How you can help improve this project?
 
