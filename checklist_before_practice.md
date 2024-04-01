@@ -1,14 +1,13 @@
 # Checklist before practice
-
 ## Shinai
 
-- two or three Shinai
-  - recommended to prepare three Shinai, two is required
+- two or three Shinai 竹刀
+	- recommended to prepare three Shinai, two is required
 - check the Shinai condition
-  - no breaks or cracks
-  - no loose string
-  - Nagayuyi is tight
-- Tsuba and Tsubadome
+	- no breaks or cracks
+	- no loose string
+	- Nakayui 中結い is tight
+- Tsuba 鍔 and Tsubadome 鍔止め
 
 Don't use broken Shinai in practice
 
@@ -25,9 +24,10 @@ Don't use broken Shinai in practice
 
 ## Water
 
+## Additional protections if needed
 
-## Protectors if needed
-
+- for elbow
+- for forearm
 
 ## Mindset
 
