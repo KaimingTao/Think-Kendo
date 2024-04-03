@@ -2,15 +2,16 @@
 
 A small project about some thoughts of **practicing kendo**.
 
-## Table of Contents
+
+## Refine mindset
+
+- [Basic mindset](./mindset.md)
+
+## Refine basics
 
 - [Checklist before practice](checklist_before_practice.md)
 - [Suburi checklist](./suburi_checklist.md)
 
-
-## Training mindset
-
-- [Basic mindset](./mindset.md)
 
 ## Resources
 
