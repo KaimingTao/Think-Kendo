@@ -1,13 +1,14 @@
 # Checklist before practice
+
 ## Shinai
 
-- two or three Shinai 竹刀
+- two or three Shinai (竹刀)
 	- recommended to prepare three Shinai, two is required
 - check the Shinai condition
 	- no breaks or cracks
 	- no loose string
-	- Nakayui 中結い is tight
-- Tsuba 鍔 and Tsubadome 鍔止め
+	- Nakayui (中結い) is tight
+- Tsuba (鍔) and Tsubadome (鍔止め)
 
 Don't use broken Shinai in practice
 

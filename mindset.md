@@ -7,6 +7,6 @@
 - Our decisions shape our actions.
 - What we have done and what we will do define ourselves and shape our future.
 
-## Check yourself
+## Check myself
 
 

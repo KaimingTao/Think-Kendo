@@ -1,4 +1,4 @@
-# Book list of Kendo 1
+# Kendo Books
 
 - Japan-English Dictionary of Kendo
     - 剣道和英辞典

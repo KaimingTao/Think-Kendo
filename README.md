@@ -1,25 +1,28 @@
 # Thinking Kendo
 
-A small project about some thoughts of **practicing kendo**.
+A small project about some of my thoughts about **practicing kendo**.
 
 
-## Refine mindset
+## How to refine mindset
 
 - [Basic mindset](./mindset.md)
 
-## Refine basics
+
+## How to refine basics
 
 - [Checklist before practice](checklist_before_practice.md)
 - [Suburi checklist](./suburi_checklist.md)
 
 
-## Resources
+## Kendo literatures
 
 - [Kendo Books, basic list](./Book_list_1.md)
 
-## How you can help improve this project?
 
-- You can use `Issues` tab to create new requests, or discuss some topics.
+## How to help improve this project?
+
+- please use `Issues` tab to create new requests, or discuss some topics.
+
 
 ## Contributor
 

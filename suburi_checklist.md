@@ -1,21 +1,9 @@
 # Suburi checklist
 
-You can using your feeling to check/correct your Suburi, you can also use a mirror, using your eyes to check them, you can also find help from other practitioners.
+- Suburi is the basic of the basic of Kendo, wrong Suburi will get invalid point and prevent growth.
+- as doing Suburi more and more, I can feel I can use the feeling to check the Suburi, it's called **proprioception**, but using a mirror and video recording is always another good option, the feedback is more accurate and direct. Get help from higher ranked people are also helpful
 
-## Kamae
-
-### Body
-
-- upper body should be straight, not lean forward
-- upper body, especially shoulder, should be relax
-- body should be facing forward, not to the left, not to the right,
-    - facing directly to the opponent
-
-### Feet
-
-- both feet should point forward
-- keep left heel up, and be ready to push the body
-- check distribution of weight, it should be easy to push the body forward
+## Check the Kamae
 
 ### Hand and Grip
 
@@ -25,11 +13,24 @@ You can using your feeling to check/correct your Suburi, you can also use a mirr
 - the thumb and index finger should not squeeze the Shinai
 
 
+### Body posture
+
+- upper body should be straight, not lean forward
+- upper body, especially shoulder, should be relax
+- body should be facing forward, not to the left, not to the right,
+    - facing directly to the opponent
+
+### Feet status
+
+- both feet should point forward
+- keep left heel up, and be ready to push the body
+- check distribution of weight, it should be easy to push the body forward
+
 ## Shinai/Bokuto position
 
 - the blade should face down
 - tip of Shinai (Kensen) should point to opponent's eye or throat
 
-## Watch your opponent
+## Watch the opponent
 
-- you should watch the whole body of your opponent, not a small area
+- always watch the whole body of the opponent, not a small area like Men, or Kote, or Doh only.
