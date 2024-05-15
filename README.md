@@ -16,6 +16,7 @@ A small project about some of my thoughts about **practicing kendo**.
 
 ## Kendo literatures
 
+- Commonly used terminology
 - [Kendo Books, basic list](./Book_list_1.md)
 
 
