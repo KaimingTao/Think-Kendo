@@ -3,7 +3,7 @@
 ## Why mindset matters a lot?
 
 - The mind determines how we perceive things and how we think.
-- The way we think influences the decisions we make.
+- The way we think influences the decisions, the choices we make.
 - Our decisions shape our actions.
 - What we have done and what we will do define ourselves and shape our future.
 
@@ -23,6 +23,6 @@
 - When we are taught by Sensei, reply if we hear it or understand it
     - a communication with the Sensei makes them know if they are communicating efficiently
     - if we don't reply anything, **no one** knows if we understand or not
-- 
+-
 
 
