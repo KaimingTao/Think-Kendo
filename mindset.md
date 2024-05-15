@@ -11,6 +11,8 @@
 
 - Mind is a powerful simulation tool that help us understand the world around us.
 
+> The real voyage of discover consists not in seeking new landscapes, but in having new eyes.
+
 ## Self awareness
 
 - self awareness is about
