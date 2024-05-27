@@ -5,6 +5,8 @@ A small project about some of my thoughts about **practicing kendo**.
 
 ## How to refine mindset
 
+> Kendo is my ZazenKendo is my Zazen.
+
 - [Basic mindset](./mindset.md)
 
 
