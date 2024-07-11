@@ -13,3 +13,5 @@
     - https://www.youtube.com/@TheKendoShow
 - ハリー・ヨシダの剣道日記
     - https://www.youtube.com/@ハリーヨシダの剣道日記
+- Kendo Tips
+    - https://www.youtube.com/@Kendotips
