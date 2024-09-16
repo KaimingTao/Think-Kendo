@@ -12,6 +12,7 @@
 - Nippon Kendo Kata, Instruction Manual
     - 日本剣道形解説書
     - https://zenkenren-shop.com/english/050102/
+    - Established in December, 1981
 - The Regulations of Kendo Shiai and Shinpan, The Subsidiary Rules of Kendo Shiai and Shinpan
     - FIK剣道　試合・審判規則/同細則（和英版）
     - https://zenkenren-shop.com/english/kendo-en/050101/
