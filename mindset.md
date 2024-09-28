@@ -1,5 +1,7 @@
 # Mindset
 
+> The real voyage of discovery consists not in seeing new sights, but in looking with new eyes. (Marcel Proust)
+
 ## Why mindset matters a lot?
 
 - The mind determines how we perceive things and how we think.
