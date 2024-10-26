@@ -6,4 +6,4 @@ After practice there're some workflow to follow and for preparing the next pract
 - Check Shinai & Bokutou is packed
     - Check Shinai & Bokutou are in good condition
 - Fold Gi and Hakama
-- think and write down the things learnt today
+- Think and write down the things learnt today
