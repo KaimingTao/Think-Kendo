@@ -1,4 +1,4 @@
-# Thinking Kendo
+# Think Ken Do
 
 A small project about some of my thoughts about **practicing kendo**.
 
