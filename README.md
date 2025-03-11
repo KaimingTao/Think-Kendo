@@ -5,7 +5,7 @@ A continuously updated thoughts about **practicing kendo**.
 
 ## A better mindset
 
-> Kendo is my Zazen.
+> Kendo is Zazen.
 
 - [Basic mindset](./mindset.md)
 
