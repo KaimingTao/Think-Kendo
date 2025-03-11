@@ -1,26 +1,26 @@
 # Think Kendo
 
-A small project about some of my thoughts about **practicing kendo**.
+A continuously updated thoughts about **practicing kendo**.
 
 
-## How to refine mindset
+## A better mindset
 
-> Kendo is my ZazenKendo is my Zazen.
+> Kendo is my Zazen.
 
 - [Basic mindset](./mindset.md)
 
 
-## How to refine basics
+## Kendo basics
 
-- [Checklist before practice](checklist_before_practice.md)
-- [Suburi checklist](./suburi_checklist.md)
+- [Checklist before practice](./checklist-after-practice.md)
+- [Checklist for Suburi](./checklist-for-suburi.md)
 
 
-## Kendo literatures
+## Library
 
-- Commonly used terminology
-- [Kendo Books, basic list](./Book_list_1.md)
-
+- [Kendo Books](Book-list.md)
+- [Youtube channels](./video-channels.md)
+- [Weblogs]()
 
 ## How to help improve this project?
 
@@ -29,7 +29,7 @@ A small project about some of my thoughts about **practicing kendo**.
 
 ## Contributor
 
-- Kaiming Tao (D1)
+- Kaiming Tao (D2)
 
 ## License
 
