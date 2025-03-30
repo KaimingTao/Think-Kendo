@@ -1,26 +1,40 @@
 # Think Kendo
 
-A continuously updated thoughts about **practicing kendo**.
+Improving thoughts about **practicing kendo**.
 
 
-## A better mindset
-
-> Kendo is Zazen.
+## Mind sets learnt
 
 - [Basic mindset](./mindset.md)
 
+## Daily practice
 
-## Kendo basics
-
-- [Checklist before practice](./checklist-after-practice.md)
 - [Checklist for Suburi](./checklist-for-suburi.md)
 
+## Dojo practice
+
+- [Checklist before practice](./checklist-after-practice.md)
+- [Checklist after practice](./checklist-after-practice.md)
+
+## Video recording
+
+- [Video recording](./video-recording.md)
+
+## Maintenance
+
+- Shinai
+- Bogu
+- Tenugui
 
 ## Library
 
-- [Kendo Books](Book-list.md)
-- [Youtube channels](./video-channels.md)
-- [Weblogs]()
+- [Kendo Books](./library/books.md)
+- [Videos](./library/videos.md)
+- [Video channels](./library/video-channels.md)
+- [Blogs](./library/blogs.md)
+- [Stores](./library/stores.md)
+- [Common glossary](./library/glossary.md)
+- Dojos, pending
 
 ## How to help improve this project?
 
