@@ -5,21 +5,32 @@ Improving thoughts about **practicing kendo**.
 
 ## Mind training
 
-- [Mind training](./mind-training/mind-training.md)
+What we can learn for mind
+
+- ability to think
+- ability of self-learning
+- how to find and overcome weekness
+
+<!-- - [Mind training](./mind-training/mind-training.md) -->
 
 ## Daily practice
 
-- [Suburi](./daily-practice/su)
-- Muscle training
+- [Suburi](./daily-practice/suburi.md)
+<!-- - Muscle training -->
+<!-- - Flexibility -->
 
 ## Dojo practice
 
-- [Before practice](./checklist-after-practice.md)
-- [After practice](./checklist-after-practice.md)
+- [Before practice](./dojo-practice/before-practice.md)
+- [After practice](./dojo-practice/after-practice.md)
+
+## Kata
+
+- [Kata glossary](./kata/Glossary.md)
 
 ## Video recording method
 
-- [Video recording](./video-recording.md)
+- [Video recording](./video-recording/video-recording.md)
 
 ## Maintenance
 
