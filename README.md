@@ -3,20 +3,21 @@
 Improving thoughts about **practicing kendo**.
 
 
-## Mind sets learnt
+## Mind training
 
-- [Basic mindset](./mindset.md)
+- [Mind training](./mind-training.md)
 
 ## Daily practice
 
-- [Checklist for Suburi](./checklist-for-suburi.md)
+- [Suburi](./checklist-for-suburi.md)
+- Muscle training
 
 ## Dojo practice
 
-- [Checklist before practice](./checklist-after-practice.md)
-- [Checklist after practice](./checklist-after-practice.md)
+- [Before practice](./checklist-after-practice.md)
+- [After practice](./checklist-after-practice.md)
 
-## Video recording
+## Video recording method
 
 - [Video recording](./video-recording.md)
 
@@ -26,7 +27,7 @@ Improving thoughts about **practicing kendo**.
 - Bogu
 - Tenugui
 
-## Library
+<!-- ## Library
 
 - [Kendo Books](./library/books.md)
 - [Videos](./library/videos.md)
@@ -34,12 +35,12 @@ Improving thoughts about **practicing kendo**.
 - [Blogs](./library/blogs.md)
 - [Stores](./library/stores.md)
 - [Common glossary](./library/glossary.md)
-- Dojos, pending
+- Dojos, pending -->
 
-## How to help improve this project?
-
+<!-- ## How to help improve this project?
+- email or discord?
 - please use `Issues` tab to create new requests, or discuss some topics.
-
+ -->
 
 ## Contributor
 

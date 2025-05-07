@@ -1,4 +1,4 @@
-# Mindset
+# Mind training
 
 > The real voyage of discovery consists not in seeing new sights, but in looking with new eyes. (Marcel Proust)
 

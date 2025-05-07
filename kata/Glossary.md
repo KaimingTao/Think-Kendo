@@ -1,7 +1,6 @@
+# Kendo Kata glossary for communication
+
 Version: 2025-05-06
-
-The terminology used in Kata, which are for communication and understanding.
-
 
 ## General
 
