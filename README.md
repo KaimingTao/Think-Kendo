@@ -5,11 +5,11 @@ Improving thoughts about **practicing kendo**.
 
 ## Mind training
 
-- [Mind training](./mind-training.md)
+- [Mind training](./mind-training/mind-training.md)
 
 ## Daily practice
 
-- [Suburi](./checklist-for-suburi.md)
+- [Suburi](./daily-practice/su)
 - Muscle training
 
 ## Dojo practice
