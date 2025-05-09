@@ -6,9 +6,10 @@ Version: 2025-05-08
 
 Purpose:
 
-- communication
-- understand the meaning behind each word
-- to remind
+- for communication
+- for understanding the meaning behind each word
+- for practical usage, not for building a dictionary
+
 
 ## General
 

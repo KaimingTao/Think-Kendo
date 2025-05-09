@@ -7,8 +7,9 @@ version: 2025-05-08
 Purpose:
 
 - for communication
-- to understand the meaning behind each word
-- to remind
+- for understanding the meaning behind each word
+- for practical usage, not for building a dictionary
+
 
 ## General
 
