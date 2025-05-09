@@ -15,7 +15,7 @@ What we can learn for mind
 
 ## Daily practice
 
-- [Suburi](./daily-practice/suburi.md)
+- [Suburi keypoints](./daily-practice/suburi.md)
 <!-- - Muscle training -->
 <!-- - Flexibility -->
 
@@ -26,7 +26,8 @@ What we can learn for mind
 
 ## Kata
 
-- [Kata glossary](./kata/Glossary.md)
+- [Kata glossary](./kata/Kata%20glossary.md)
+- [BKKK glossary](./kata/BKKK%20glossary.md)
 
 ## Video recording method
 
