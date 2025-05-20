@@ -154,7 +154,7 @@ Purpose:
 - すりあげ
 - すり落とし　Suri-otoshi
 - すり流し　Suri-nagashi
-- すり込む　Suri-komi
+- すり込む　Suri-komu
 
 ## Related literatures
 
