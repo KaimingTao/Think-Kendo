@@ -2,12 +2,9 @@
 
 Improving thoughts about **practicing kendo**.
 
+## What is a better mind?
 
-## Why practice kendo?
-
-- improve body condition
 - [Mind training](./mind-training/mind-training.md)
-
 
 ## Daily practice
 
@@ -29,6 +26,9 @@ Improving thoughts about **practicing kendo**.
 ## Video recording method
 
 - [Video as different view](./video-recording/video-as-different-view.md)
+
+## Body training
+
 
 ## Maintenance
 
