@@ -3,21 +3,18 @@
 Improving thoughts about **practicing kendo**.
 
 
-## Mind training
+## Why practice kendo?
 
-What we can learn for mind
+- improve body condition
+- [Mind training](./mind-training/mind-training.md)
 
-- ability to think
-- ability of self-learning
-- how to find and overcome weekness
-
-<!-- - [Mind training](./mind-training/mind-training.md) -->
 
 ## Daily practice
 
 - [Suburi keypoints](./daily-practice/suburi.md)
 <!-- - Muscle training -->
 <!-- - Flexibility -->
+- Kendo words in daily practice
 
 ## Dojo practice
 
@@ -31,7 +28,7 @@ What we can learn for mind
 
 ## Video recording method
 
-- [Video recording](./video-recording/video-recording.md)
+- [Video as different view](./video-recording/video-as-different-view.md)
 
 ## Maintenance
 

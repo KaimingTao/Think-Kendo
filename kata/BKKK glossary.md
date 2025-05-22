@@ -58,6 +58,7 @@ Purpose:
 - 胴　Do
 	- 右胴　Migi-Do
 - 突き　Tsuki
+
 ## 基本２
 
 - 連続技　Renzoku-waza
