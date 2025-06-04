@@ -5,7 +5,7 @@ This project contains some thoughts about **practicing kendo**, it helps me chec
 
 ## 気　剣　体　の一致 (Ki Ken Tai no Icchi)
 
-![Ki Ken Tai no Icchi](./Ki%20Ken%20Tai%20no%20Ichi.drawio.png)
+![Ki Ken Tai no Icchi](./Ki%20Ken%20Tai%20no%20Ichi.png)
 
 ## 気構え　Mind
 
