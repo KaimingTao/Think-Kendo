@@ -1,22 +1,30 @@
 # Think Kendo
 
-Improving thoughts about **practicing kendo**.
+This project contains some thoughts about **practicing kendo**, it helps me check which I understand which I don't, it helps check the knowledge I know how to use and which I don't. Through this build-up I can walk on the path of improvement.
 
-## What is a better mind?
+
+## 気　剣　体　の一致 (Ki Ken Tai no Icchi)
+
+![Ki Ken Tai no Icchi](./Ki%20Ken%20Tai%20no%20Ichi.drawio.png)
+
+## 気構え　Mind
 
 - [Mind training](./mind-training/mind-training.md)
 
 ## Daily practice
 
-- [Suburi keypoints](./daily-practice/suburi.md)
+- [Suburi](./suburi/suburi.md)
+- [Before practice](./daily-practice/before-practice.md)
+- [After practice](./daily-practice/after-practice.md)
 <!-- - Muscle training -->
 <!-- - Flexibility -->
 - Kendo words in daily practice
 
-## Dojo practice
+## Maintenance and safety
 
-- [Before practice](./dojo-practice/before-practice.md)
-- [After practice](./dojo-practice/after-practice.md)
+- Shinai
+- Bogu
+- Tenugui
 
 ## Kata
 
@@ -27,24 +35,6 @@ Improving thoughts about **practicing kendo**.
 
 - [Video as different view](./video-recording/video-as-different-view.md)
 
-## Body training
-
-
-## Maintenance
-
-- Shinai
-- Bogu
-- Tenugui
-
-<!-- ## Library
-
-- [Kendo Books](./library/books.md)
-- [Videos](./library/videos.md)
-- [Video channels](./library/video-channels.md)
-- [Blogs](./library/blogs.md)
-- [Stores](./library/stores.md)
-- [Common glossary](./library/glossary.md)
-- Dojos, pending -->
 
 <!-- ## How to help improve this project?
 - email or discord?
