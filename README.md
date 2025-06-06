@@ -29,6 +29,8 @@ This project contains some thoughts about **practicing kendo**, it helps me chec
 
 ## Kata
 
+Practising Kata can improve kendo.
+
 - [Kata glossary](./kata/Kata%20glossary.md)
 - [BKKK glossary](./kata/BKKK%20glossary.md)
 
