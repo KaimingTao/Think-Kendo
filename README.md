@@ -1,6 +1,6 @@
 # Think Kendo
 
-This project contains some thoughts about **practicing kendo**, it helps me check which I understand which I don't, it helps check the knowledge I know how to use and which I don't. This build-up helps me walk on the path of improvement, not the paths that repeat same errors.
+This project contains some thoughts about **practicing kendo**, it helps me check which I understand which I don't, it helps check the knowledge I know how to use and which I don't. This build-up helps me walk on the path of improvement, not the paths those repeat same errors.
 
 
 ## 気　剣　体　の一致 (Ki Ken Tai no Icchi)
