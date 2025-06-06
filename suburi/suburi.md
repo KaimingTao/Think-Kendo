@@ -54,6 +54,7 @@ It's not easy to check if we're doing right just by feeling because our eyes can
 ## Cut (Strike)
 
 - Use arm and elbow to swing the shinai, use power from torso
+- Keep elbow close to body line, the elbow should move up and down, not left, not right.
 - When striking, right leg should catch up and back to temporary kamae position
     - 冴え
 - The trajectory of Shinai, should follow the blade
