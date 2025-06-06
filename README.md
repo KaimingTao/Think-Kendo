@@ -1,6 +1,6 @@
 # Think Kendo
 
-This project contains some thoughts about **practicing kendo**, it helps me check which I understand which I don't, it helps check the knowledge I know how to use and which I don't. Through this build-up I can walk on the path of improvement.
+This project contains some thoughts about **practicing kendo**, it helps me check which I understand which I don't, it helps check the knowledge I know how to use and which I don't. This build-up helps me walk on the path of improvement, not the paths that repeat same errors.
 
 
 ## 気　剣　体　の一致 (Ki Ken Tai no Icchi)
@@ -14,17 +14,18 @@ This project contains some thoughts about **practicing kendo**, it helps me chec
 ## Daily practice
 
 - [Suburi](./suburi/suburi.md)
-- [Before practice](./daily-practice/before-practice.md)
-- [After practice](./daily-practice/after-practice.md)
+- [Prepare for practice](./daily-practice/dojo-pracice.md)
+- [Safety](./daily-practice/safety.md)
+
 <!-- - Muscle training -->
 <!-- - Flexibility -->
-- Kendo words in daily practice
-
+<!-- - Kendo words in daily practice -->
+<!--
 ## Maintenance and safety
 
 - Shinai
 - Bogu
-- Tenugui
+- Tenugui -->
 
 ## Kata
 
@@ -34,6 +35,7 @@ This project contains some thoughts about **practicing kendo**, it helps me chec
 ## Video recording method
 
 - [Video as different view](./video-recording/video-as-different-view.md)
+- [What we're looking for in videos](./video-recording/what-we-are-looking-for.md)
 
 
 <!-- ## How to help improve this project?
