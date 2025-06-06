@@ -2,12 +2,21 @@
 
 This project contains some thoughts about **practicing kendo**, it helps me check which I understand which I don't, it helps check the knowledge I know how to use and which I don't. This build-up helps me walk on the path of improvement, not the paths those repeat same errors.
 
+Because thinking is a continuum, this project will get frequently updated.
+
+Updated at: 2025-06-05
 
 ## 気　剣　体　の一致 (Ki Ken Tai no Icchi)
 
 ![Ki Ken Tai no Icchi](./Ki%20Ken%20Tai%20no%20Ichi.png)
 
 ## 気構え　Mind
+
+### What we can learn
+
+- Self-learning
+- Self-improvement
+- Cooperate with people
 
 - [Mind training](./mind-training/mind-training.md)
 
