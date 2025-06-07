@@ -54,7 +54,7 @@ Practising Kata can improve kendo.
 ## Video recording method
 
 - [Video as different view](./video-recording/video-as-different-view.md)
-- [What to looking for in videos](./video-recording/what-we-are-looking-for.md)
+- [What to looking for in videos](./video-recording/what-to-looking-for.md)
 
 
 <!-- ## How to help improve this project?
