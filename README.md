@@ -56,6 +56,9 @@ Practising Kata can improve kendo.
 - [Video as different view](./video-recording/video-as-different-view.md)
 - [What to looking for in videos](./video-recording/what-to-looking-for.md)
 
+## 刀　Katana
+
+TODO
 
 <!-- ## How to help improve this project?
 - email or discord?
