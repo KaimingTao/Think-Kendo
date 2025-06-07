@@ -1,21 +1,29 @@
 # Think Kendo
 
-This project contains some thoughts about **practicing kendo**, it helps me check which I understand which I don't, it helps check the knowledge I know how to use and which I don't. This build-up helps me walk on the path of improvement, not the paths those repeat same errors.
+This project contains some thoughts about **practicing kendo**, it helps me check which I understand which I don't, it helps check the knowledge I know how to use and which I don't. This build-up helps me walk on the paths of improvement, not the paths those repeat same errors.
 
-Because thinking is a continuum, this project will get frequently updated.
+In life, a lot of things take days, months, years, then you MAY get feedback about if you're doing right or doing wrong. Kendo is in another way, if you're doing wrong then you get feedback immediately. That's a good test field to learn the meta knowledge of improvement.
+
+Human society takes millions of years and collects knowledges that support our modern life, if we want to reinvent from scratch that is impossible, the best way is to learn from our predecessors. But it's not free lunch, we need still understand the logic behind these knowledge and invention, that we can grasp and use them.
+
+Thinking is a continuum, so this project will get frequently updated.
 
 Updated at: 2025-06-05
 
-## 気　剣　体　の一致 (Ki Ken Tai no Icchi)
+<!-- ## 気　剣　体　の一致 (Ki Ken Tai no Icchi)
 
-![Ki Ken Tai no Icchi](./Ki%20Ken%20Tai%20no%20Ichi.png)
+![Ki Ken Tai no Icchi](./Ki%20Ken%20Tai%20no%20Ichi.png) -->
 
-## 気構え　Mind
+## Good ways of thinking
 
-### What we can learn
-
-- Self-learning
-- Self-improvement
+- How to set goal and evaluate the goal
+- How to solve problem by split hard one to easy pieces
+- Self-leadership
+    - Self improving
+    - Self learning
+    - Self awareness
+    - Self evaluation
+    - enjoy
 - Cooperate with people
 
 - [Mind training](./mind-training/mind-training.md)
