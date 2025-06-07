@@ -48,8 +48,8 @@ Updated at: 2025-06-05
 
 Practising Kata can improve kendo.
 
-- [Kata glossary](./kata/Kata%20glossary.md)
-- [BKKK glossary](./kata/BKKK%20glossary.md)
+- [Kata glossary](./kata/Kata-glossary.md)
+- [BKKK glossary](./kata/BKKK-glossary.md)
 
 ## Video recording method
 
