@@ -8,11 +8,10 @@ Human society takes millions of years and collects myriads of knowledge that sup
 
 Thinking is a continuum, knowledge is built piece by picece, a general knowledge is just something statiscally common in life, this project will get frequently updated.
 
-Updated at: 2025-06-05
+Updated at: 2025-06-07
 
-<!-- ## 気　剣　体　の一致 (Ki Ken Tai no Icchi)
 
-![Ki Ken Tai no Icchi](./Ki%20Ken%20Tai%20no%20Ichi.png) -->
+![Ki Ken Tai no Icchi](./Ki-Ken-Tai-no-ichi.drawio.png)
 
 ## Some good ways of thinking
 
