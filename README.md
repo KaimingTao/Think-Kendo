@@ -4,7 +4,7 @@ This project contains some thoughts about **practicing kendo**, it helps me chec
 
 In life, a lot of things take days, months, years, then you MAY get feedback about if you're doing right or doing wrong. Kendo is in another way, if you're doing wrong then you get feedback immediately. That's a good test field to learn the meta knowledge of improvement.
 
-Human society takes millions of years and collects knowledges that support our modern life, if we want to reinvent from scratch that is impossible, the best way is to learn from our predecessors. But it's not free lunch, we need still understand the logic behind these knowledge and invention, that we can grasp and use them.
+Human society takes millions of years and collects myriads of knowledge that support our modern life, if we want to reinvent from scratch that is impossible, the best way is to learn from our predecessors. But it's not free lunch, we still need understand the logic behind these knowledge and invention, in this way we can know the context and how to use them.
 
 Thinking is a continuum, so this project will get frequently updated.
 
