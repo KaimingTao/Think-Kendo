@@ -6,7 +6,7 @@ In life, a lot of things take days, months, years, then you MAY get feedback abo
 
 Human society takes millions of years and collects myriads of knowledge that support our modern life, if we want to reinvent from scratch that is impossible, the best way is to learn from our predecessors. But it's not free lunch, we still need understand the logic behind these knowledge and invention, in this way we can know the context and how to use them.
 
-Thinking is a continuum, so this project will get frequently updated.
+Thinking is a continuum, knowledge is built piece by picece, so this project will get frequently updated.
 
 Updated at: 2025-06-05
 
