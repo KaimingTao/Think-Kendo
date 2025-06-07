@@ -6,7 +6,7 @@ Suburi is the basic of Kendo. Doing Suburi in a right path will get improved fas
 
 This guide lists all points that should be paid attention to so that we can be sure we're walking on the right path.
 
-It's not easy to check if we're doing right just by feeling because our eyes cannot see ourselves directly. The key is to get some feedbacks, like getting advide from Sensei, replaying video taps, using mirror, getting advice from fellows, etc. But getting feedbacks is not enough, we need to know why, why the advice works.
+It's not easy to check if we're doing right just by feeling because our eyes cannot see ourselves directly. The key is to get some feedbacks, like getting advide from Sensei, replaying video taps, using mirror, getting advice from fellows, etc. But getting feedbacks is not enough, we need to know why, why the advice works. In some point we can feel how mind coodiates with the body, and how leg muscles, torso, arms, bones coordinate with each other, then we can control them for a good strike.
 
 ![Suburi](./Suburi.png)
 

@@ -14,7 +14,7 @@ Updated at: 2025-06-05
 
 ![Ki Ken Tai no Icchi](./Ki%20Ken%20Tai%20no%20Ichi.png) -->
 
-## Good ways of thinking
+## Some good ways of thinking
 
 - How to set goal and evaluate the goal
 - How to solve problem by split hard one to easy pieces
@@ -26,7 +26,7 @@ Updated at: 2025-06-05
     - enjoy
 - Cooperate with people
 
-- [Mind training](./mind-training/mind-training.md)
+<!-- - [Mind training](./mind-training/mind-training.md) -->
 
 ## Daily practice
 
@@ -54,7 +54,7 @@ Practising Kata can improve kendo.
 ## Video recording method
 
 - [Video as different view](./video-recording/video-as-different-view.md)
-- [What we're looking for in videos](./video-recording/what-we-are-looking-for.md)
+- [What to looking for in videos](./video-recording/what-we-are-looking-for.md)
 
 
 <!-- ## How to help improve this project?
