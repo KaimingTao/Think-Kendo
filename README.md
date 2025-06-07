@@ -23,7 +23,7 @@ Updated at: 2025-06-05
     - Self learning
     - Self awareness
     - Self evaluation
-    - enjoy
+    - enjoy and have fun
 - Cooperate with people
 
 <!-- - [Mind training](./mind-training/mind-training.md) -->
