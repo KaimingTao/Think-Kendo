@@ -13,6 +13,16 @@ Updated at: 2025-06-07
 
 ![Ki Ken Tai no Icchi](./Ki-Ken-Tai-no-ichi.drawio.png)
 
+
+## Resources
+
+- Suburi
+- Kata and BKKK
+- Ashi sabaki
+- Waza
+- Equipement
+- Other
+
 ## Some good ways of thinking
 
 - How to set goal and evaluate the goal
