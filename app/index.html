@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Elementary</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&display=swap" />
+  <link rel="stylesheet" href="assets/styles/main.css" />
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="site-header__inner">
+      <div class="site-header__content">
+        <span class="site-header__badge">Curated inspiration</span>
+        <h1 class="site-header__title">Kendo idea cards</h1>
+      </div>
+      <div class="site-header__cta">
+        <a class="site-header__button" href="#app">Browse the collection</a>
+        <p class="site-header__cta-note">Scroll to explore cards, filter by tags, and open any idea for the full
+          breakdown.</p>
+      </div>
+    </div>
+  </header>
+  <p id="site-update" class="site-update" aria-live="polite"></p>
+  <main id="app" class="app"></main>
+  <div id="modal-root"></div>
+  <footer class="site-footer">
+    <p class="site-footer__disclaimer">
+      Ideas here may not be right, and I change my thinking frequently. Please think before you buy them.
+    </p>
+    <p class="site-footer__text">© <span id="site-year"></span> Kaiming Tao. All rights reserved.</p>
+  </footer>
+  <script type="module" src="src/main.js"></script>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-NJ3WT3W7BC"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-NJ3WT3W7BC');
+  </script>
+</body>
+</html>

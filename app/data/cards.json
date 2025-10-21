@@ -1,0 +1,116 @@
+[
+  {
+    "title": "Safety of practice",
+    "details": "- We don't want to get injured\n- We don't want to injury our fellow practioners\n- If people get injured it will take weeks or months to recover",
+    "tags": [
+      "Safety"
+    ]
+  },
+  {
+    "title": "Maintain Shinai",
+    "details": "- We should check our Shinai condition before and after practice\n- No cracks\n- No fractures\n- Kensen is tight\n- Nakayui is in right position and tight\n- Tsuru is tight",
+    "tags": [
+      "Safety",
+      "Maintain"
+    ]
+  },
+  {
+    "title": "Maintain Shinai",
+    "details": "- Suggest to untie Shinai and check both inside and outside, many crasks are hidden inside\n- **Never use a broken Shinai**\n- **Never use a suspecious Shinai for Tsuki**\n- Pay some attention to your opponent's Shinai, if you find it's broken let them know and switch it\n- Prepare at least **Two** Shinai, **Three** would be better\n- Write a name or any identifier on Tsuka",
+    "tags": [
+      "Safety",
+      "Maintain"
+    ]
+  },
+  {
+    "title": "Protect Wrist and Elbow",
+    "details": "- Especially the right wrist which is the target for Kote, and right elbow which is close to the right Do\n- Although Do is hard to break, we should tie the Do corectly\n- Make sure the left and right are even\n- Make sure the Do Himo is ok\n- For elbow and wrist, you can find protections in some Kendo supplier\n- Especially for people who got bruise frequently\n- We should find the opportunity to strike the Do, not because we want to but it's not the right time.",
+    "tags": [
+      "Safety"
+    ]
+  },
+  {
+    "title": "Kata and BKKK",
+    "details": "- It's hard for new practioners to control their Bokuto, so carefulness needs to be taken",
+    "tags": [
+      "Safety"
+    ]
+  },
+  {
+    "title": "What to look for in a video",
+    "details": "- Check if the foot work is right\n- Check if the body work is right\n- Check if the arm swing is right\n- Check if the cutting is right\n- Check the spirit\n- Find one or two points that can be improved, especially the easy points",
+    "tags": [
+      "Video recording"
+    ]
+  },
+  {
+    "title": "Video as different view",
+    "details": "At practice, we can only see things in our subjective view. Video records provide the possibility to save and see ourselves in the same time but in different view.\nWe can use videos to check which parts we're doing right and which parts we're doing wrong, what is our strength and what is our weakness. Even we got feedback from different Sensei and different people, if we cannot see what we're doing, we cannot understand. Checking the difference between what is right as we know and what we are doing, then we can understand the comments. Without seeing the difference, the future is behind the fog.\nThis is the essential way we can be better, by watching and understanding ourselves. Some people can build the feedback process by self-awareness, and video might be a bit easier. Video recording should help us think and understand how to improve, and it should encourage thinking.",
+    "tags": [
+      "Video recording"
+    ]
+  },
+  {
+    "title": "What we're recording?",
+    "details": "Recording the video is a way to check what we know, without correct knowledge, it's hard to interpret what just happened.\nHere is an example list of things that's easy to be recognized\nFor Kamae\n- where is the kensen pointing\n- are both the feet facing forward\nFor Suburi\n- Left hand position when cutting and when swing the Shinai\n- Sae 冴え, does left foot catch up when cutting?\n- Tenouchi or hammer-strike\n- Body motion, where is center of gravity\n- Shoulder tense",
+    "tags": [
+      "Video recording"
+    ]
+  },
+  {
+    "title": "How to know where am I? There are many people in this video",
+    "details": "- If you cannot tell where you're, maybe have your name on Kendo-Gi or Hakama.\n- Advanced people can easily identify themselves, because I guess they watched themselves many times",
+    "tags": [
+      "Video recording"
+    ]
+  },
+  {
+    "title": "I have the video but it didn't catch the key part",
+    "details": "- Try next time, we cannot expect one video can catch everything, sometimes it's just we were faraway from the camera in practice",
+    "tags": [
+      "Video recording"
+    ]
+  },
+  {
+    "title": "I forgot recording today, what should I do?",
+    "details": "- It's ok, if some situations repeatedly show, we can catch it next time.",
+    "tags": [
+      "Video recording"
+    ]
+  },
+  {
+    "title": "Where to store the video",
+    "details": "Video files are normally big and record 1 ~ 2 hours. Several factors affect which method to choose:\n- storage space\n- cost\n- easy access video\n- privacy\n- share with others",
+    "tags": [
+      "Video recording"
+    ]
+  },
+  {
+    "title": "Store videos on personal computer or cell phone",
+    "details": "- we can easily access the file\n- has limited storage\n- if the device is broken, the video could be broken too\n- hard to share with other people",
+    "tags": [
+      "Video recording"
+    ]
+  },
+  {
+    "title": "Store videos on Portable HDD or SSD",
+    "details": "- we can easily access the file\n- normally has bigger storage\n- if the device is broken, we cannot access the data\n- a bit hard to share with many people",
+    "tags": [
+      "Video recording"
+    ]
+  },
+  {
+    "title": "Store videos on Cloud storage",
+    "details": "- normally has big storage\n- need download then access the data\n- need pay monthly or annual fee\n- easy to share with others\n- need internet access",
+    "tags": [
+      "Video recording"
+    ]
+  },
+  {
+    "title": "Store videos on Youtube",
+    "details": "- unlimited storage space\n- can access anywhere, but need internet access\n- need take time to upload the video\n- need set video as `unlisted` to share with other people, the data are still exposed to anyone, it has privacy issue. Suggest to hide very old videos.\n- the company may use your video to train their AI",
+    "tags": [
+      "Video recording"
+    ]
+  }
+]

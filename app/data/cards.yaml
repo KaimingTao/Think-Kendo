@@ -1,0 +1,137 @@
+- title: Safety of practice
+  details: |-
+    - We don't want to get injured
+    - We don't want to injury our fellow practioners
+    - If people get injured it will take weeks or months to recover
+  tags:
+  - Safety
+- title: Maintain Shinai
+  details: |-
+    - We should check our Shinai condition before and after practice
+    - No cracks
+    - No fractures
+    - Kensen is tight
+    - Nakayui is in right position and tight
+    - Tsuru is tight
+  tags:
+  - Safety
+  - Maintain
+- title: Maintain Shinai
+  details: |-
+    - Suggest to untie Shinai and check both inside and outside, many crasks are hidden inside
+    - **Never use a broken Shinai**
+    - **Never use a suspecious Shinai for Tsuki**
+    - Pay some attention to your opponent's Shinai, if you find it's broken let them know and switch it
+    - Prepare at least **Two** Shinai, **Three** would be better
+    - Write a name or any identifier on Tsuka
+  tags:
+  - Safety
+  - Maintain
+- title: Protect Wrist and Elbow
+  details: |-
+    - Especially the right wrist which is the target for Kote, and right elbow which is close to the right Do
+    - Although Do is hard to break, we should tie the Do corectly
+    - Make sure the left and right are even
+    - Make sure the Do Himo is ok
+    - For elbow and wrist, you can find protections in some Kendo supplier
+    - Especially for people who got bruise frequently
+    - We should find the opportunity to strike the Do, not because we want to but it's not the right time.
+  tags:
+  - Safety
+- title: Kata and BKKK
+  details: |-
+    - It's hard for new practioners to control their Bokuto, so carefulness needs to be taken
+  tags:
+  - Safety
+- title: What to look for in a video
+  details: |-
+    - Check if the foot work is right
+    - Check if the body work is right
+    - Check if the arm swing is right
+    - Check if the cutting is right
+    - Check the spirit
+    - Find one or two points that can be improved, especially the easy points
+  tags:
+  - video recording
+- title: Video as different view
+  details: |-
+    At practice, we can only see things in our subjective view. Video records provide the possibility to save and see ourselves in the same time but in different view.
+    We can use videos to check which parts we're doing right and which parts we're doing wrong, what is our strength and what is our weakness. Even we got feedback from different Sensei and different people, if we cannot see what we're doing, we cannot understand. Checking the difference between what is right as we know and what we are doing, then we can understand the comments. Without seeing the difference, the future is behind the fog.
+    This is the essential way we can be better, by watching and understanding ourselves. Some people can build the feedback process by self-awareness, and video might be a bit easier. Video recording should help us think and understand how to improve, and it should encourage thinking.
+  tags:
+  - video recording
+- title: What we're recording?
+  details: |-
+    Recording the video is a way to check what we know, without correct knowledge, it's hard to interpret what just happened.
+    Here is an example list of things that's easy to be recognized
+    For Kamae
+    - where is the kensen pointing
+    - are both the feet facing forward
+    For Suburi
+    - Left hand position when cutting and when swing the Shinai
+    - Sae 冴え, does left foot catch up when cutting?
+    - Tenouchi or hammer-strike
+    - Body motion, where is center of gravity
+    - Shoulder tense
+  tags:
+  - video recording
+- title: How to know where am I? There are many people in this video
+  details: |-
+    - If you cannot tell where you're, maybe have your name on Kendo-Gi or Hakama.
+    - Advanced people can easily identify themselves, because I guess they watched themselves many times
+  tags:
+  - video recording
+- title: I have the video but it didn't catch the key part
+  details: |-
+    - Try next time, we cannot expect one video can catch everything, sometimes it's just we were faraway from the camera in practice
+  tags:
+  - video recording
+- title: I forgot recording today, what should I do?
+  details: |-
+    - It's ok, if some situations repeatedly show, we can catch it next time.
+  tags:
+  - video recording
+- title: Where to store the video
+  details: |-
+    Video files are normally big and record 1 ~ 2 hours. Several factors affect which method to choose:
+    - storage space
+    - cost
+    - easy access video
+    - privacy
+    - share with others
+  tags:
+  - video recording
+- title: Store videos on personal computer or cell phone
+  details: |-
+    - we can easily access the file
+    - has limited storage
+    - if the device is broken, the video could be broken too
+    - hard to share with other people
+  tags:
+  - video recording
+- title: Store videos on Portable HDD or SSD
+  details: |-
+    - we can easily access the file
+    - normally has bigger storage
+    - if the device is broken, we cannot access the data
+    - a bit hard to share with many people
+  tags:
+  - video recording
+- title: Store videos on Cloud storage
+  details: |-
+    - normally has big storage
+    - need download then access the data
+    - need pay monthly or annual fee
+    - easy to share with others
+    - need internet access
+  tags:
+  - video recording
+- title: Store videos on Youtube
+  details: |-
+    - unlimited storage space
+    - can access anywhere, but need internet access
+    - need take time to upload the video
+    - need set video as `unlisted` to share with other people, the data are still exposed to anyone, it has privacy issue. Suggest to hide very old videos.
+    - the company may use your video to train their AI
+  tags:
+  - video recording

@@ -1,0 +1,38 @@
+{
+  "name": "idea-card",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "prebuild": "python3 data/yaml2json.py -i data/cards.yaml",
+    "dev": "vite",
+    "build": "vite build && cpy data dist/data --recursive",
+    "preview": "vite preview",
+    "lint": "npm run lint:js && npm run lint:css && npm run lint:format",
+    "lint:js": "eslint \"src/**/*.{js,jsx}\" \"tests/**/*.js\" --max-warnings=0",
+    "lint:css": "stylelint \"assets/styles/**/*.css\"",
+    "lint:format": "prettier --check .",
+    "test": "vitest",
+    "test:e2e": "playwright test",
+    "deploy": "npm run build && rimraf docs && cpy dist docs --recursive"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.43.1",
+    "cpy-cli": "^5.0.0",
+    "eslint": "^9.0.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-jsx-a11y": "^6.8.0",
+    "eslint-plugin-prettier": "^5.1.3",
+    "prettier": "^3.2.5",
+    "rimraf": "^5.0.5",
+    "sass": "^1.70.0",
+    "stylelint": "^16.3.1",
+    "stylelint-config-standard": "^36.0.0",
+    "stylelint-config-standard-scss": "^13.0.0",
+    "stylelint-order": "^6.0.3",
+    "vite": "^5.1.3",
+    "vite-plugin-gh-pages": "^1.0.1",
+    "vitest": "^1.5.0"
+  }
+}
