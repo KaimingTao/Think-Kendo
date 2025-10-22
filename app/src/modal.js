@@ -1,39 +1,7 @@
-let markedPromise = null;
+import { ensureMarkedReady, parseMarkdown } from './markdown.js';
 
 function resolveMarkedInstance() {
-  if (markedPromise) {
-    return markedPromise;
-  }
-
-  markedPromise = (async () => {
-    const existing = globalThis.marked;
-    if (existing && typeof existing.parse === 'function') {
-      return existing;
-    }
-
-    const module = await import('marked');
-    const candidate = module.marked ?? module.default ?? module;
-    if (!candidate || typeof candidate.parse !== 'function') {
-      throw new Error('Unable to load marked parser');
-    }
-
-    return candidate;
-  })()
-    .then((instance) => {
-      if (typeof instance.setOptions === 'function') {
-        instance.setOptions({
-          breaks: true,
-          gfm: true,
-        });
-      }
-      return instance;
-    })
-    .catch((error) => {
-      markedPromise = null;
-      throw error;
-    });
-
-  return markedPromise;
+  return ensureMarkedReady();
 }
 
 const FOCUSABLE_SELECTOR = [
@@ -71,6 +39,16 @@ function normalizeToText(value) {
   return '';
 }
 
+function decorateModalContent(target) {
+  if (!target) {
+    return;
+  }
+
+  target.querySelectorAll('ul').forEach((list) => {
+    list.classList.add('modal__list');
+  });
+}
+
 function renderMarkdown(target, markdown) {
   if (!target) {
     return Promise.resolve(false);
@@ -82,17 +60,14 @@ function renderMarkdown(target, markdown) {
   }
 
   return resolveMarkedInstance()
-    .then((instance) => {
-      const parser = typeof instance.parse === 'function' ? instance.parse.bind(instance) : null;
-      const html = parser ? parser(text) : '';
+    .then(() => {
+      const html = parseMarkdown(text);
       if (!html) {
         return false;
       }
 
       target.innerHTML = html;
-      target.querySelectorAll('ul').forEach((list) => {
-        list.classList.add('modal__list');
-      });
+      decorateModalContent(target);
       return true;
     })
     .catch((error) => {
@@ -264,6 +239,8 @@ export function createModalController(root) {
       content.innerHTML = '';
       content.hidden = true;
 
+      const resolvedDetailsHtml = typeof card.detailsHtml === 'string' ? card.detailsHtml.trim() : '';
+
       const listItems = Array.isArray(card.details)
         ? card.details
           .map((item) => {
@@ -294,26 +271,35 @@ export function createModalController(root) {
           || '';
       }
 
-      const fallbackText = markdownSource || detailsTextForFallback || summaryTextCandidate || '';
+      const fallbackText = markdownSource
+        || detailsTextForFallback
+        || summaryTextCandidate
+        || '';
 
-      renderMarkdown(content, markdownSource)
-        .then((rendered) => {
-          if (rendered) {
-            content.hidden = false;
-            return;
-          }
+      if (resolvedDetailsHtml) {
+        content.innerHTML = resolvedDetailsHtml;
+        decorateModalContent(content);
+        content.hidden = false;
+      } else {
+        renderMarkdown(content, markdownSource)
+          .then((rendered) => {
+            if (rendered) {
+              content.hidden = false;
+              return;
+            }
 
-          if (fallbackText) {
-            content.textContent = fallbackText;
-            content.hidden = false;
-          }
-        })
-        .catch(() => {
-          if (fallbackText) {
-            content.textContent = fallbackText;
-            content.hidden = false;
-          }
-        });
+            if (fallbackText) {
+              content.textContent = fallbackText;
+              content.hidden = false;
+            }
+          })
+          .catch(() => {
+            if (fallbackText) {
+              content.textContent = fallbackText;
+              content.hidden = false;
+            }
+          });
+      }
 
       if (card.backgroundColor) {
         dialog.style.background = card.backgroundColor;

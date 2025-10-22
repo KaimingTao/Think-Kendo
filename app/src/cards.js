@@ -1,3 +1,5 @@
+import { ensureMarkedReady, parseMarkdown } from './markdown.js';
+
 let cardsCache = null;
 
 const cardsRequestUrl = (() => {
@@ -49,6 +51,38 @@ function generateCardId(seed = 0) {
   return `card-${timestamp}-${seed}-${randomSegment}`;
 }
 
+function buildDetailsMarkdown(detailItems, rawDetails, rawSummary) {
+  if (Array.isArray(detailItems) && detailItems.length > 0) {
+    return detailItems
+      .map((item) => {
+        if (/^\s*(?:[-*+]\s+|\d+\.\s+)/.test(item)) {
+          return item;
+        }
+        return `- ${item}`;
+      })
+      .join('\n');
+  }
+
+  if (rawDetails) {
+    return rawDetails;
+  }
+
+  if (rawSummary) {
+    return rawSummary;
+  }
+
+  return '';
+}
+
+function renderDetailsHtml(markdownSource) {
+  if (!markdownSource) {
+    return '';
+  }
+
+  const html = parseMarkdown(markdownSource);
+  return typeof html === 'string' ? html.trim() : '';
+}
+
 function normalizeCards(raw) {
   if (!Array.isArray(raw)) {
     return [];
@@ -83,6 +117,9 @@ function normalizeCards(raw) {
       ? detailItems
       : rawDetails || rawSummary || '';
 
+    const detailsMarkdown = buildDetailsMarkdown(detailItems, rawDetails, rawSummary);
+    const detailsHtml = renderDetailsHtml(detailsMarkdown);
+
     const tags = Array.isArray(card.tags) ? card.tags.filter((tag) => typeof tag === 'string') : [];
     const image = card.image && typeof card.image === 'object' ? {
       src: typeof card.image.src === 'string' ? card.image.src.trim() : '',
@@ -95,6 +132,7 @@ function normalizeCards(raw) {
       fullTitle,
       summary,
       details,
+      detailsHtml,
       tags,
       image,
     };
@@ -162,6 +200,12 @@ export function prepareCards(rawCards, { shuffle = true } = {}) {
 export async function fetchCards() {
   if (cardsCache) {
     return cardsCache;
+  }
+
+  try {
+    await ensureMarkedReady();
+  } catch (error) {
+    console.warn('Unable to preload markdown parser for cards', error);
   }
 
   const bundled = loadFromBundle();
