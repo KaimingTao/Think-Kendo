@@ -1,5 +1,3 @@
-const MARKED_CDN_URL = 'https://cdn.jsdelivr.net/npm/marked@16.4.1/lib/marked.esm.js';
-
 let markedPromise = null;
 
 function resolveMarkedInstance() {
@@ -13,18 +11,8 @@ function resolveMarkedInstance() {
       return existing;
     }
 
-    try {
-      const module = await import('marked');
-      const candidate = module.marked ?? module.default ?? module;
-      if (candidate && typeof candidate.parse === 'function') {
-        return candidate;
-      }
-    } catch (error) {
-      console.warn('Falling back to CDN marked import', error);
-    }
-
-    const fallback = await import(MARKED_CDN_URL);
-    const candidate = fallback.marked ?? fallback.default ?? fallback;
+    const module = await import('marked');
+    const candidate = module.marked ?? module.default ?? module;
     if (!candidate || typeof candidate.parse !== 'function') {
       throw new Error('Unable to load marked parser');
     }

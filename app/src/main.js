@@ -1,5 +1,5 @@
-/* global __CARDS_LAST_MODIFIED__ */
 import { fetchCards, renderCardGrid, prepareCards } from './cards.js';
+import { cardsLastModified } from './cards-metadata.js';
 import { createModalController } from './modal.js';
 
 const app = document.getElementById('app');
@@ -24,8 +24,7 @@ if (siteUpdate) {
     timeStyle: 'short',
   });
 
-  const lastUpdatedSource = typeof __CARDS_LAST_MODIFIED__ !== 'undefined' ? __CARDS_LAST_MODIFIED__ : null;
-  const parsedLastUpdated = typeof lastUpdatedSource === 'string' ? new Date(lastUpdatedSource) : null;
+  const parsedLastUpdated = typeof cardsLastModified === 'string' ? new Date(cardsLastModified) : null;
   const resolvedDate = parsedLastUpdated && !Number.isNaN(parsedLastUpdated.getTime())
     ? parsedLastUpdated
     : new Date();

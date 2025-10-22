@@ -3,6 +3,7 @@
 
 import argparse
 import json
+from datetime import datetime, timezone
 from pathlib import Path
 
 try:
@@ -115,6 +116,27 @@ def convert_yaml_to_json(yaml_path, tag_delimiter):
     with json_path.open('w', encoding='utf-8') as handle:
         json.dump(cards, handle, indent=2, ensure_ascii=False)
         handle.write('\n')
+
+    write_metadata(json_path)
+
+
+def write_metadata(json_path: Path) -> None:
+    project_root = json_path.parent.parent
+    metadata_path = project_root / 'src' / 'cards-metadata.js'
+
+    try:
+        last_modified = datetime.fromtimestamp(json_path.stat().st_mtime, tz=timezone.utc)
+    except OSError as exc:
+        print(f'Unable to stat {json_path}: {exc}')
+        last_modified = None
+
+    metadata_path.parent.mkdir(parents=True, exist_ok=True)
+    with metadata_path.open('w', encoding='utf-8') as handle:
+        if last_modified:
+            iso_value = last_modified.isoformat(timespec='seconds').replace('+00:00', 'Z')
+            handle.write(f"export const cardsLastModified = '{iso_value}';\n")
+        else:
+            handle.write('export const cardsLastModified = null;\n')
 
 
 def main():

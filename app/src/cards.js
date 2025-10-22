@@ -1,10 +1,8 @@
 let cardsCache = null;
 
-const cardsImportPath = '../data/cards.json';
-
 const cardsRequestUrl = (() => {
   try {
-    return new URL(cardsImportPath, import.meta.url).href;
+    return new URL('../data/cards.json', import.meta.url).href;
   } catch (error) {
     console.warn('Unable to resolve cards.json via import.meta.url, falling back to relative path', error);
     return 'data/cards.json';
@@ -112,9 +110,18 @@ function shuffleCards(cards) {
   return shuffled;
 }
 
-async function loadFromImport() {
+function loadFromBundle() {
+  if (typeof import.meta.glob !== 'function') {
+    return null;
+  }
+
   try {
-    const module = await import(cardsImportPath, { assert: { type: 'json' } });
+    const modules = import.meta.glob('../data/cards.json', { eager: true });
+    const module = modules['../data/cards.json'];
+    if (!module) {
+      return null;
+    }
+
     const payload = module.default ?? module;
     if (!Array.isArray(payload)) {
       return null;
@@ -122,17 +129,7 @@ async function loadFromImport() {
 
     return payload;
   } catch (error) {
-    try {
-      const module = await import(cardsImportPath);
-      const payload = module.default ?? module;
-      if (!Array.isArray(payload)) {
-        return null;
-      }
-
-      return payload;
-    } catch (nestedError) {
-      console.warn('Falling back to network fetch for cards', nestedError);
-    }
+    console.warn('Unable to load cards bundle via import.meta.glob', error);
     return null;
   }
 }
@@ -167,9 +164,9 @@ export async function fetchCards() {
     return cardsCache;
   }
 
-  const imported = await loadFromImport();
-  if (imported && imported.length > 0) {
-    cardsCache = prepareCards(imported, { shuffle: true });
+  const bundled = loadFromBundle();
+  if (bundled && bundled.length > 0) {
+    cardsCache = prepareCards(bundled, { shuffle: true });
     return cardsCache;
   }
 
