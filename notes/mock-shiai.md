@@ -1,0 +1,1 @@
+## manage shinai check list

@@ -1,3 +1,10 @@
+import { marked } from 'marked';
+
+marked.setOptions({
+  breaks: true,
+  gfm: true,
+});
+
 const FOCUSABLE_SELECTOR = [
   'a[href]',
   'button:not([disabled])',
@@ -33,142 +40,25 @@ function normalizeToText(value) {
   return '';
 }
 
-function createFormattedFragment(text) {
-  const fragment = document.createDocumentFragment();
-  if (!text) {
-    return fragment;
-  }
-
-  const pattern = /(\*\*[^*]+?\*\*|__[^_]+?__|\*[^*]+?\*|_[^_]+?_|`[^`]+?`)/g;
-
-  let lastIndex = 0;
-  let match = pattern.exec(text);
-  while (match) {
-    const { index } = match;
-    if (index > lastIndex) {
-      fragment.appendChild(document.createTextNode(text.slice(lastIndex, index)));
-    }
-
-    const token = match[0];
-    let element = null;
-    let content = '';
-
-    if ((token.startsWith('**') && token.endsWith('**')) || (token.startsWith('__') && token.endsWith('__'))) {
-      content = token.slice(2, -2);
-      element = document.createElement('strong');
-    } else if ((token.startsWith('*') && token.endsWith('*')) || (token.startsWith('_') && token.endsWith('_'))) {
-      content = token.slice(1, -1);
-      element = document.createElement('em');
-    } else if (token.startsWith('`') && token.endsWith('`')) {
-      content = token.slice(1, -1);
-      element = document.createElement('code');
-    }
-
-    if (element) {
-      element.textContent = content;
-      fragment.appendChild(element);
-    } else {
-      fragment.appendChild(document.createTextNode(token));
-    }
-
-    lastIndex = pattern.lastIndex;
-    match = pattern.exec(text);
-  }
-
-  if (lastIndex < text.length) {
-    fragment.appendChild(document.createTextNode(text.slice(lastIndex)));
-  }
-
-  return fragment;
-}
-
-function appendFormattedText(target, text) {
+function renderMarkdown(target, markdown) {
   if (!target) {
-    return;
-  }
-
-  const safeText = typeof text === 'string' ? text : '';
-  if (!safeText) {
-    return;
-  }
-
-  target.appendChild(createFormattedFragment(safeText));
-}
-
-function appendMarkdownDetails(target, text) {
-  if (!target || typeof text !== 'string' || text.trim() === '') {
     return false;
   }
 
-  const fragment = document.createDocumentFragment();
-  const lines = text.split(/\r?\n/);
+  const text = typeof markdown === 'string' ? markdown.trim() : '';
+  if (!text) {
+    return false;
+  }
 
-  let currentList = null;
-  let paragraphBuffer = [];
+  const html = marked.parse(text);
+  if (!html) {
+    return false;
+  }
 
-  const flushList = () => {
-    if (currentList && currentList.children.length > 0) {
-      fragment.appendChild(currentList);
-    }
-    currentList = null;
-  };
-
-  const flushParagraph = () => {
-    if (paragraphBuffer.length === 0) {
-      return;
-    }
-    const paragraph = document.createElement('p');
-    appendFormattedText(paragraph, paragraphBuffer.join(' '));
-    fragment.appendChild(paragraph);
-    paragraphBuffer = [];
-  };
-
-  lines.forEach((rawLine) => {
-    const line = typeof rawLine === 'string' ? rawLine.trim() : '';
-    if (!line) {
-      flushList();
-      flushParagraph();
-      return;
-    }
-
-    if (/^%%.*%%$/.test(line)) {
-      return;
-    }
-
-    if (/^---+$/.test(line)) {
-      flushList();
-      flushParagraph();
-      return;
-    }
-
-    const listMatch = line.match(/^[-*+]\s+(.*)$/);
-    if (listMatch) {
-      flushParagraph();
-      if (!currentList) {
-        currentList = document.createElement('ul');
-        currentList.className = 'modal__list';
-      }
-      const listItemText = listMatch[1].trim();
-      if (listItemText) {
-        const listItem = document.createElement('li');
-        appendFormattedText(listItem, listItemText);
-        currentList.appendChild(listItem);
-      }
-      return;
-    }
-
-    flushList();
-    paragraphBuffer.push(line);
+  target.innerHTML = html;
+  target.querySelectorAll('ul').forEach((list) => {
+    list.classList.add('modal__list');
   });
-
-  flushList();
-  flushParagraph();
-
-  if (fragment.childNodes.length === 0) {
-    return false;
-  }
-
-  target.appendChild(fragment);
   return true;
 }
 
@@ -332,9 +222,10 @@ export function createModalController(root) {
         figure.hidden = true;
       }
 
-      content.textContent = '';
-      if (Array.isArray(card.details)) {
-        const items = card.details
+      content.innerHTML = '';
+
+      const listItems = Array.isArray(card.details)
+        ? card.details
           .map((item) => {
             if (item == null) {
               return '';
@@ -342,27 +233,30 @@ export function createModalController(root) {
             const text = typeof item === 'string' ? item : String(item);
             return text.trim();
           })
-          .filter(Boolean);
-        if (items.length > 0) {
-          const list = document.createElement('ul');
-          list.className = 'modal__list';
-          items.forEach((item) => {
-            const listItem = document.createElement('li');
-            appendFormattedText(listItem, item);
-            list.appendChild(listItem);
-          });
-          content.appendChild(list);
-        } else {
-          const fallbackText = detailsTextForFallback
-            || (summaryTextCandidate ?? '');
-          appendFormattedText(content, fallbackText);
-        }
+          .filter(Boolean)
+        : [];
+
+      let markdownSource = '';
+      if (listItems.length > 0) {
+        markdownSource = listItems
+          .map((item) => {
+            if (/^\s*(?:[-*+]\s+|\d+\.\s+)/.test(item)) {
+              return item;
+            }
+            return `- ${item}`;
+          })
+          .join('\n');
       } else {
-        const detailsText = detailsTextForFallback || summaryTextCandidate || '';
-        const renderedMarkdown = appendMarkdownDetails(content, detailsText);
-        if (!renderedMarkdown) {
-          appendFormattedText(content, detailsText);
-        }
+        const rawDetails = typeof card.details === 'string' ? card.details : '';
+        markdownSource = rawDetails.trim()
+          || detailsTextForFallback
+          || summaryTextCandidate
+          || '';
+      }
+
+      const rendered = renderMarkdown(content, markdownSource);
+      if (!rendered && markdownSource) {
+        content.textContent = markdownSource;
       }
       if (card.backgroundColor) {
         dialog.style.background = card.backgroundColor;

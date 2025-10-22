@@ -3,14 +3,27 @@
 - Visit: [Kendo Idea cards](https://kaimingtao.github.io/Think-Kendo/app)
 
 
-## How to use the web note
+## Purpose of this project
 
+Kendo knowledge are stored in people's minds, books, online videos, blogs, etc.
+When we face a question, we may struggle to find them.
+This project is trying to make answer searching a bit easier.
+
+After we know the answer, the next step is to understand them. One day we may find a better answer.
+
+
+## How to use the web note
 
 - [ ] TODO
 
 ## Contributor
 
 - Kaiming Tao (D2)
+
+<!-- ## How to help improve this project?
+- email or discord?
+- please use `Issues` tab to create new requests, or discuss some topics.
+ -->
 
 ## License
 

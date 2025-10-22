@@ -1,14 +1,292 @@
 [
   {
+    "title": "After practice",
+    "details": "- Pack your Kendogu and Kote, keep then dry and clean\n- Fold your Gi and Hakama, wash them if you want\n- Wash and iron your Tenugui\n- Check Shinai & Bokutou are in good conditions\n- Check, think, and write down the **things learnt** today, for improving",
+    "tags": [
+      "After practice",
+      "Mindset",
+      "复盘",
+      "Review"
+    ]
+  },
+  {
+    "title": "Why we need to know the English and Japnease terms used in Kata and BKKK",
+    "details": "- for communication\n- for understanding the meaning behind each word\n- for practical usage, not for building a dictionary",
+    "tags": [
+      "Kata",
+      "Bkkk"
+    ]
+  },
+  {
+    "title": "BKKK basic terms",
+    "details": "- 木刀による剣道基本技稽古法　Bokuto-ni-yoru Kendo Kihon-waza Keiko-ho\n- 基本　Kihon\n- 技　Waza\n- 構え　Kamae\n- 目付け　Metsuke\n- 間合　Maai\n- 一足一刀の間合　Issoku-itto-no-maai\n- 打突　Datotsu\n- 手の内　Tenouchi\n- 刃筋　Hasuji\n- 物打ち　Monouchi\n- 足さばき　Ashi-sabaki\n- 送り足　Okuri-ashi\n- すり足　Suri-ashi\n- 掛け声　Kakegoe\n- 発声　Hassei\n- 残心　Zanshin\n- 元立ち　Moto-dachi\n- 掛り手　Kakari-te",
+    "tags": [
+      "Kata",
+      "Bkkk"
+    ]
+  },
+  {
+    "title": "BKKK 立会　Tachi-ai",
+    "details": "- 上座　Kamiza\n- 正面　Shomen\n- 下座　Shimoza\n- 正座　Seiza\n- 座礼　Zarei\n- 立会の間合　Tachiai-no-maai\n- 提刀　Teito\n- 帯刀　Taito\n- 柄頭　Tsuka-gashira\n- 蹲踞　Sonkyo\n- 横手交差　Yokote-kosa\n- 中段の構え　Chudan-no-kamae\n- 鍔元　Tsuba-moto\n- 剣先　Kensen",
+    "tags": [
+      "Kata",
+      "Bkkk"
+    ]
+  },
+  {
+    "title": "BKKK 基本１",
+    "details": "- 一本うちの技　Ippon-uchi-no-waza\n- 正面　Shomen\n- 小手　Kote\n- 胴　Do\n- 右胴　Migi-Do\n- 突き　Tsuki",
+    "tags": [
+      "Kata",
+      "Bkkk"
+    ]
+  },
+  {
+    "title": "BKKK 基本２",
+    "details": "- 連続技　Renzoku-waza\n- 二・三段の技　Ni/San-dan-no-waza\n- 小手、面　Kote-men",
+    "tags": [
+      "Kata",
+      "Bkkk"
+    ]
+  },
+  {
+    "title": "BKKK 基本３",
+    "details": "- 払い技　Harai-waza\n- 払い面　Harai-men\n- 表　Omote",
+    "tags": [
+      "Kata",
+      "Bkkk"
+    ]
+  },
+  {
+    "title": "BKKK 基本４",
+    "details": "- 引き技　Hiki-waza\n- 引き胴　Hiki-do\n- 右胴　Migi-Do",
+    "tags": [
+      "Kata",
+      "Bkkk"
+    ]
+  },
+  {
+    "title": "BKKK 基本５",
+    "details": "- 抜き技　Nuki-waza\n- 面抜き胴　Men-nuki-do\n- 右胴　Migi-Do",
+    "tags": [
+      "Kata",
+      "Bkkk"
+    ]
+  },
+  {
+    "title": "BKKK 基本６",
+    "details": "- すりあげ技　Suriage-waza\n- 小手すりあげ面　Kote-suriage-men\n- 裏　Ura\n- Zanshin of this waza is both side take one step back to Kamae.",
+    "tags": [
+      "Kata",
+      "Bkkk"
+    ]
+  },
+  {
+    "title": "BKKK 基本７",
+    "details": "- でばな技　Debana-waza\n- 出鼻技\n- 出ばな小手　Debana-kote",
+    "tags": [
+      "Kata",
+      "Bkkk"
+    ]
+  },
+  {
+    "title": "BKKK 基本８",
+    "details": "- 返し技　Kaeshi-waza\n- 面返し胴　Men-kaeshi-do\n- 右胴　Migi-Do",
+    "tags": [
+      "Kata",
+      "Bkkk"
+    ]
+  },
+  {
+    "title": "BKKK 基本９",
+    "details": "- 打ち落とし技　Uchi-otoshi-waza\n- 胴打ち落とし面　Do-uchiotoshi-men\n- 右胴　Migi-Do",
+    "tags": [
+      "Kata",
+      "Bkkk"
+    ]
+  },
+  {
+    "title": "Kata basic terms",
+    "details": "- 方剣道　Kata Kendo\n- 竹刀剣道　Shinai Kendo\n- 打太刀　Uchidachi\n- 仕太刀　Shidachi\n- 間合　Maai\n- 気位　Kigurai\n- 理合い　Riai\n- 緩急強弱　Kan-kyu-kyo-jaku\n- ヤー　Yah\n- トー　Too\n- 残心　Zan-shin\n- 一拍子　Ichi-byoushi\n- 冴え　Sa-e\n- 手の内　Te-no-uchi\n- 面　Men\n- 小手　Kote\n- 籠手　Kote\n- 甲手　Kote\n- 胴　Do",
+    "tags": [
+      "Kata",
+      "Bkkk"
+    ]
+  },
+  {
+    "title": "Kata 礼法 Rei-hou",
+    "details": "- 礼　Rei\n- 座礼　Zarei\n- 正座　Seiza\n- 上座　Kamiza\n- 下座　Shimoza",
+    "tags": [
+      "Kata",
+      "Bkkk"
+    ]
+  },
+  {
+    "title": "立会　Tachiai",
+    "details": "- 帯　Obi\n- 蹲踞　Sonkyo\n- すり足　Suri-ashi\n- 半身　Hanmi",
+    "tags": [
+      "Kata",
+      "Bkkk"
+    ]
+  },
+  {
+    "title": "刀　Katana",
+    "details": "- 木刀　Bokuto\n- 刀身　To-shin\n- 刃筋　Hasuji\n- 鎬　Shinogi\n- 物打ち　Monouchi\n- 剣先　Kensen\n- 切先　Kissaki\n- 栗形　Kurigata\n- 柄頭　Tsuka-gashira\n- 物打ち　Mono-uchi\n- 鍔元　Tsuba-moto\n- 鎺　Habaki\n- [Named parts of a katana](https://en.wikipedia.org/wiki/Katana#/media/File:Katana_(common_shema).png)\n- [日本刀の部位名称](https://www.touken-world.jp/sword-structure/) In Japanese, more details",
+    "tags": [
+      "Kata",
+      "Bkkk"
+    ]
+  },
+  {
+    "title": "構え",
+    "details": "- 身構え　Mi-gamae\n- 心構え　Kokoro-gamae\n- 気構え　Ki-gamae\n- 五つの構え　Itsutsu-no-Kamae\n- 五方の構え　Goho-no-Kamae\n- 中段　Chudan\n- 正眼　Seigan\n- 上段　Jodan\n- 霞の構え　Kasumi-no-Kamae\n- 諸手左上段　Morote-Hidari-Jodan\n- 諸手右上段　Morote-Migi-Jodan\n- 下段　Gedan\n- 八相　Hasso\n- 脇構え　Wakigamae\n- 左半身　Hidari-hanmi\n- 目付け　Me-tsuke\n- 丹田　Tanden\n- 自然体　Shizentai",
+    "tags": [
+      "Kata",
+      "Bkkk"
+    ]
+  },
+  {
+    "title": "太刀 一本目 Ippon-me",
+    "details": "- 切る　Kiru\n- 抜く　Nuku",
+    "tags": [
+      "Kata",
+      "Bkkk"
+    ]
+  },
+  {
+    "title": "太刀 二本目 Nihon-me",
+    "details": "- 斜めうち　Naname-uchi",
+    "tags": [
+      "Kata",
+      "Bkkk"
+    ]
+  },
+  {
+    "title": "太刀 三本目 Sanbon-me",
+    "details": "- 相下段　Ai-gedan\n- 気争い　Ki-arasoi\n- 水月　Sui-getsu, Mizu-ochi\n- 入れ突き　Ire-zukini\n- 萎し　Nayashi\n- 位詰め　Kurai-zume",
+    "tags": [
+      "Kata",
+      "Bkkk"
+    ]
+  },
+  {
+    "title": "太刀 四本目 Yonhon-me",
+    "details": "- 相打ち　Ai-uchi\n- 遠間　To-ma\n- 切り結び　Kiri-musubi\n- 捲き返す　Maki-kaesu",
+    "tags": [
+      "Kata",
+      "Bkkk"
+    ]
+  },
+  {
+    "title": "太刀 五本目",
+    "details": "- すり上げ　Suri-age",
+    "tags": [
+      "Kata",
+      "Bkkk"
+    ]
+  },
+  {
+    "title": "太刀 六本目",
+    "details": "- 攻め　Seme\n- 払い　Harai",
+    "tags": [
+      "Kata",
+      "Bkkk"
+    ]
+  },
+  {
+    "title": "太刀 七本目",
+    "details": "- 捨て身　Sute-mi\n- 歩あし　Ayumi-ashi",
+    "tags": [
+      "Kata",
+      "Bkkk"
+    ]
+  },
+  {
+    "title": "小太刀",
+    "details": "- 中段半身の構え　Chudan-hanmi-no-kamae\n- 下段半身の構え　Gedan-hanmi-no-kamae",
+    "tags": [
+      "Kata",
+      "Bkkk"
+    ]
+  },
+  {
+    "title": "小太刀 一本目",
+    "details": "- 入り身　Iri-mi\n- 飛び込み　Tobi-komi\n- 開く　Hiraku\n- ひらき方　Hiraki-kata\n- 受け流し　Uke-nagashi",
+    "tags": [
+      "Kata",
+      "Bkkk"
+    ]
+  },
+  {
+    "title": "小太刀 二本目",
+    "details": "- 攻め込む　Seme-komu\n- 受け流し　Uke-nagashi",
+    "tags": [
+      "Kata",
+      "Bkkk"
+    ]
+  },
+  {
+    "title": "小太刀 三本目",
+    "details": "- すりあげ\n- すり落とし　Suri-otoshi\n- すり流し　Suri-nagashi\n- すり込む　Suri-komu",
+    "tags": [
+      "Kata",
+      "Bkkk"
+    ]
+  },
+  {
+    "title": "The essential way we can be better, is by watching and understanding ourselves.",
+    "details": "Some people can build the feedback process by **self-awareness**, and also use help from video or feedback.\nVideo recording should help us think and understand how to improve, and it should encourage thinking.",
+    "tags": [
+      "Mindset",
+      "Video recording"
+    ]
+  },
+  {
+    "title": "Understand what we have recorded.",
+    "details": "Recording the video is a way to check what we know, without correct knowledge, it's hard to interpret what just happened.",
+    "tags": [
+      "Mindset",
+      "Video recording"
+    ]
+  },
+  {
+    "title": "Prepare Mindset",
+    "details": "- Think about what we want to achieve today\n- `What things I learnt from previous practices?`\n- `What I want to improve or pay attention to today?`\n- Be focused on the practice and listen carefully about the instructions, everytime we learn new things",
+    "tags": [
+      "Prepare"
+    ]
+  },
+  {
+    "title": "Check body condition",
+    "details": "- Check if body is in good condition, muscles, arms, torso, legs, feet, etc.\n- Check if we're hydrated.\n- Tape the injured spot.",
+    "tags": [
+      "Prepare"
+    ]
+  },
+  {
+    "title": "Prepare your equipments before practice, check list",
+    "details": "- Two or three Shinai (竹刀)\n- check the Shinai condition\n- Tsubadome (鍔止め)\n- Bokuto, Tachi and Kotachi\n- Gi and Hakama\n- Tare and Do\n- a pair of Kote, don't mix with two left Kote or two right Kote\n- Men\n- Tenugui\n- Protectors",
+    "tags": [
+      "Prepare"
+    ]
+  },
+  {
+    "title": "Prepare water",
+    "details": "",
+    "tags": [
+      "Prepare"
+    ]
+  },
+  {
     "title": "Safety of practice",
-    "details": "- We don't want to get injured\n- We don't want to injury our fellow practioners\n- If people get injured it will take weeks or months to recover",
+    "details": "- We don't want to get injured\n- We don't want to injury our fellow practioners\n- If people got injured it will take weeks or months to recover, and back to practice",
     "tags": [
       "Safety"
     ]
   },
   {
-    "title": "Maintain Shinai",
-    "details": "- We should check our Shinai condition before and after practice\n- No cracks\n- No fractures\n- Kensen is tight\n- Nakayui is in right position and tight\n- Tsuru is tight",
+    "title": "Check Shinai",
+    "details": "- We should check our Shinai condition *before*, *after*, and *in* practice\n- No cracks\n- No fractures\n- String (弦 つる) is tight\n- 中結 is tight, and in correct position\n- Kensen (剣先), tip of shinai is intact\n- **Never** use a broken Shinai\n- **Never** use a suspecious Shinai for Tsuki\n- Pay some attention to your opponent's Shinai, if you find it's broken let them know and switch it",
     "tags": [
       "Safety",
       "Maintain"
@@ -16,7 +294,7 @@
   },
   {
     "title": "Maintain Shinai",
-    "details": "- Suggest to untie Shinai and check both inside and outside, many crasks are hidden inside\n- **Never use a broken Shinai**\n- **Never use a suspecious Shinai for Tsuki**\n- Pay some attention to your opponent's Shinai, if you find it's broken let them know and switch it\n- Prepare at least **Two** Shinai, **Three** would be better\n- Write a name or any identifier on Tsuka",
+    "details": "- Suggest to fully untie Shinai and check both inside and outside, many crasks are hidden inside\n- Prepare at least **Two** Shinai, **Three** would be better\n- Write your name or any identifier on Tsuka",
     "tags": [
       "Safety",
       "Maintain"
@@ -24,41 +302,329 @@
   },
   {
     "title": "Protect Wrist and Elbow",
-    "details": "- Especially the right wrist which is the target for Kote, and right elbow which is close to the right Do\n- Although Do is hard to break, we should tie the Do corectly\n- Make sure the left and right are even\n- Make sure the Do Himo is ok\n- For elbow and wrist, you can find protections in some Kendo supplier\n- Especially for people who got bruise frequently\n- We should find the opportunity to strike the Do, not because we want to but it's not the right time.",
+    "details": "- Especially the right wrist which is the target for Kote, and right elbow which is close to the right Do\n- Tie the Do corectly to protect our torso\n- Make sure the left side and right side are at the same height\n- Make sure the Do Himo can firmly hold the Do\n- For elbow and wrist, you can find protectors frm some Kendo supplier\n- It's for people who got bruise frequently\n- We should find the opportunity to strike the Do, not because we want to which will injure your friends.",
     "tags": [
-      "Safety"
+      "Safety",
+      "Bogu"
     ]
   },
   {
-    "title": "Kata and BKKK",
-    "details": "- It's hard for new practioners to control their Bokuto, so carefulness needs to be taken",
+    "title": "Kata and BKKK Safety",
+    "details": "- It's hard for new practioners to control their Bokuto, so be careful of how they swing\n- Keep enough distance between praction pairs, make sure they won't interfere and injury people nearby.",
     "tags": [
-      "Safety"
+      "Safety",
+      "Kata",
+      "Bkkk"
     ]
   },
   {
-    "title": "What to look for in a video",
-    "details": "- Check if the foot work is right\n- Check if the body work is right\n- Check if the arm swing is right\n- Check if the cutting is right\n- Check the spirit\n- Find one or two points that can be improved, especially the easy points",
+    "title": "Men pad",
+    "details": "- Some people don't understand how to control their arm or hand power, so we may need Men pad\n- Prevent concussion",
+    "tags": [
+      "Safety",
+      "Men",
+      "面"
+    ]
+  },
+  {
+    "title": "About Suburi",
+    "details": "- Suburi is the basic of Kendo. Doing Suburi in a right path will get improved faster, otherwise it won't get improved.\n- It's not easy to check if we're doing right just by feeling because our eyes cannot see ourselves directly.\n- Get some feedbacks, like getting advide from Sensei, replaying video taps, using mirror, getting advice from fellows, etc.\n- But getting feedbacks is not enough, we need to know why, why the advice works.\n- At some time, we can feel how mind coodiates with the body, and how leg muscles, torso, arms, bones coordinate with each other, then we can control them for a good strike.",
+    "tags": [
+      "Suburi",
+      "素振り"
+    ]
+  },
+  {
+    "title": "Kamae Grip",
+    "details": "- Use left and right hands' palm to hold the sword\n- Left hand should be naturally in front of abdomen, about 1 fist away\n- Both hand should hold the Shinai over the top\n- Both hand should hold Shinai tightly using middle, ring, and pinky finger\n- The thumb and index finger should not squeeze the Shinai",
+    "tags": [
+      "Suburi",
+      "素振り"
+    ]
+  },
+  {
+    "title": "Kamae Foot position",
+    "details": "- Both feet should point forward\n- The left-to-right distance of two feet should be about the shoulder width\n- Keep left heel up, and be ready to push the body\n- Check where center of gravity (重心) is, the distribution of weight, it should be easy to push the body forward, and not lose balance",
+    "tags": [
+      "Suburi",
+      "素振り"
+    ]
+  },
+  {
+    "title": "Kamae Body posture",
+    "details": "- Upper body should be straight, not lean forward or backward\n- Shoulders should be relaxed\n- Body should be facing forward, not to the left, not to the right\n- Face directly to the opponent",
+    "tags": [
+      "Suburi",
+      "素振り"
+    ]
+  },
+  {
+    "title": "Kamae eyes",
+    "details": "- Look at the whole picture of opponent\n- Feel their tendency and mindset",
+    "tags": [
+      "Suburi",
+      "素振り"
+    ]
+  },
+  {
+    "title": "Kamae Shinai/Bokuto position",
+    "details": "- The blade should be facing down\n- Tip of Shinai (Kensen) should point to the center between opponent's eyes or, one eye, or throat\n- This way they feel pressure (攻め)",
+    "tags": [
+      "Suburi",
+      "素振り"
+    ]
+  },
+  {
+    "title": "Kamae Mind (ki 気)",
+    "details": "- Be ready for strike or counter strike\n- Control breath\n- Always watch the whole body of the opponent, not at a small area like Men, or Kote, or Do.",
+    "tags": [
+      "Suburi",
+      "素振り"
+    ]
+  },
+  {
+    "title": "Suburi Body work",
+    "details": "- Push left leg first to initiate a cut\n- Mind focus on footwork more, less on hand work\n- Always use foot power to drive torso movement, and spread the power to hand to Kensen (tip of Shinai) for swing\n- Tense shoulders block the power from torso\n- Feel center of gravity\n- Feel power spreading across the body\n- It takes time to feel how to use body muscles",
+    "tags": [
+      "Suburi",
+      "素振り"
+    ]
+  },
+  {
+    "title": "Suburi Cut (Strike)",
+    "details": "- Use arm and elbow to swing the shinai, use power from torso\n- Keep elbow close to body line, the elbow should move up and down, not left, not right.\n- When striking, right leg should catch up and the body is back to kamae position, 冴え, for next strike\n- The momentum of 冴え, adds additional power for clean cut.\n- **Relax** a bit of hands and arms after each strike, no hammer strike.\n- The trajectory of Shinai, should follow the blade. If not we will break a real Katana's blade, 刃筋\n- Use Monouchi to hit the target, not too deep, not too shallow.\n- The correct area of Monouchi depends on the size of target, Kote is the smallest, Do is the biggest.\n- Kiai means a spirit of dedication, show to both ourselves and opponents\n- Kiai is also the easy way to synchronize the mind and body\n- Kiai is like incantation of magic. High rank Kenshi with strong Ki like advanced magicians sometimes skip the chanting",
+    "tags": [
+      "Suburi",
+      "素振り"
+    ]
+  },
+  {
+    "title": "Zanshin",
+    "details": "- Prepare for the next cut\n- Review all things we did after practice",
+    "tags": [
+      "Suburi",
+      "素振り"
+    ]
+  },
+  {
+    "title": "Katate suburi 片手技",
+    "details": "",
+    "tags": [
+      "Suburi"
+    ]
+  },
+  {
+    "title": "Training mindset",
+    "details": "The real voyage of discovery consists not in seeing new sights, but in looking with new eyes. (Marcel Proust)",
+    "tags": [
+      "Train mindset"
+    ]
+  },
+  {
+    "title": "Why mindset matters a lot?",
+    "details": "- The mind determines how we perceive things and how we think.\n- The way we think influences the decisions, the choices we make.\n- Our decisions shape our actions.\n- What we have done and what we will do define ourselves and shape our future.",
+    "tags": [
+      "Train mindset"
+    ]
+  },
+  {
+    "title": "What is mind?",
+    "details": "- Mind is a powerful simulation tool that help us understand the world around us.",
+    "tags": [
+      "Train mindset"
+    ]
+  },
+  {
+    "title": "Know ourselves, then we know which and how to improve",
+    "details": "- knowing what I'm thinking\n- knowing what I'm doing\n- knowing the consequence of my actions",
+    "tags": [
+      "Train mindset"
+    ]
+  },
+  {
+    "title": "Be a good communicator",
+    "details": "- When we don't know if we're doing right or wrong, we need ask\n- Before ask we think. think about our question, try to find our answers\n- Communicate after thinking help us understand more things than just get feedback\n- When we are taught by Sensei, reply if we hear it or understand it\n- Communicate with the Sensei makes them know if they are communicating with us efficiently\n- If we don't say anything, **no one** knows if we understand or not",
+    "tags": [
+      "Train mindset"
+    ]
+  },
+  {
+    "title": "Mind is in a loop",
+    "details": "- the mind as a feedback system has internal loops",
+    "tags": [
+      "Train mindset"
+    ]
+  },
+  {
+    "title": "The cycle of improvement",
+    "details": "- Be honest to ourselves\n- Know ourself, how we do and how we think\n- Know our good habit and bad habit\n- Try to find a way to correct bad habit\n- Try to improve good habit",
+    "tags": [
+      "Train mindset"
+    ]
+  },
+  {
+    "title": "Focus meanwhile Relax",
+    "details": "- Focus on the training and practice.\n- Relax help us understand, because stubborn prevents us from improving\n- Don't add pressure to ourselves, normally the pressure is not from opponent, but it's the refletion of our fearness.",
+    "tags": [
+      "Train mindset"
+    ]
+  },
+  {
+    "title": "What is the mindset we're looking for?",
+    "details": "- How to set goal and evaluate the goal\n- How to solve problem by split hard one to easy pieces\n- Self leadership\n- Self improving\n- Self learning\n- Self awareness\n- Self evaluation\n- Cooperate with people\n- enjoy and have fun",
+    "tags": [
+      "Train mindset"
+    ]
+  },
+  {
+    "title": "Waza terms",
+    "details": "- 表 Omote, mototachi no hidari\n- 里 Ura, mototachi no migi\n- 右 Migi, right\n- 左 Hidari, left\n- 身構え Migamae\n- 気構え kigamae",
+    "tags": [
+      "Waza",
+      "技"
+    ]
+  },
+  {
+    "title": "Ippon Uchi no Waza  一本打ちの技",
+    "details": "- Men\n- Kote\n- Do\n- Tsuki",
+    "tags": [
+      "Waza",
+      "技"
+    ]
+  },
+  {
+    "title": "Shikake waza 仕掛け技",
+    "details": "",
+    "tags": [
+      "Waza",
+      "技"
+    ]
+  },
+  {
+    "title": "Renzoku waza 二・三段の, 連続技",
+    "details": "- Men-Men\n- Kote-Men 小手・面\n- Kote-Do\n- Do-Men\n- Men-Do 面・胴\n- Kote-Men-Men 小手・面・面\n- Kote-Men-Do 小手・面・胴\n- Kote-Men-Do-Men\n- 突き・面\nMen can be both SHOMEN or SAYU-MEN",
+    "tags": [
+      "Waza",
+      "技"
+    ]
+  },
+  {
+    "title": "Harai 払い技",
+    "details": "- Harai-Men\n- Harai-Kote\nVariations\n- Harai(age) 払い\n- Osae　押さえ\n- Uchiotoshi　打ち落とし\n- Hari　張り\n- Maki　巻き\nFrom Omote or from Ura",
+    "tags": [
+      "Waza",
+      "技"
+    ]
+  },
+  {
+    "title": "Hiki 引き技",
+    "details": "- HIKI-Men\n- HIKI-Kote\n- HIKI-Do",
+    "tags": [
+      "Waza",
+      "技"
+    ]
+  },
+  {
+    "title": "Oji waza 応じ技",
+    "details": "",
+    "tags": [
+      "Waza",
+      "技"
+    ]
+  },
+  {
+    "title": "Nuki waza 抜き技",
+    "details": "- Men-Nuki-Do\n- Men-Nuki-Hidari-Do\n- Men-Nuki-Kote\n- Men-Nuki-Men\n- Kote-Nuki-Men",
+    "tags": [
+      "Waza",
+      "技"
+    ]
+  },
+  {
+    "title": "Suriage 擦り上げ技",
+    "details": "- Men-Suriage-Men (OMOTE, URA)\n- Kote-Suriage-Men (OMOTE, URA)\n- Kote-Suriage-Kote\n- Men-Suriage-Do",
+    "tags": [
+      "Waza",
+      "技"
+    ]
+  },
+  {
+    "title": "Debana 出鼻",
+    "details": "- Debana-Men\n- Debana-Kote",
+    "tags": [
+      "Waza",
+      "技"
+    ]
+  },
+  {
+    "title": "Kaeshi 返し技",
+    "details": "- Men-Kaeshi-Do\n- Kote-Kaeshi-Men\n- Men-Kaeshi-Men\n- Do-Kaeshi-Men",
+    "tags": [
+      "Waza",
+      "技"
+    ]
+  },
+  {
+    "title": "Uchiotoshi 打ち落とし",
+    "details": "- Ai-Kote-Men\n- Do-uchiotoshi-Men\n- Men-Uchiotoshi-Men",
+    "tags": [
+      "Waza",
+      "技"
+    ]
+  },
+  {
+    "title": "Why kendo?",
+    "details": "- In life, a lot of things take days, months, years, then you **MAY** get feedback about if you're doing right or doing wrong.\n- Kendo is in another way, if you're doing wrong then you know it (feedback) immediately. That's a good test field to learn the meta knowledge of improvement.\n- Human society takes millions of years and collects myriads of knowledge that support our modern life\n- If we want to reinvent from scratch that is impossible\n- The best way is to learn from our predecessors.\n- It's not free lunch, we still need understand the logic behind these knowledge and invention, in this way we can know the context and how to use them.",
+    "tags": [
+      "Why kendo"
+    ]
+  },
+  {
+    "title": "Why this project",
+    "details": "- It helps me check which I understand which I don't, - It helps me check the knowledge I know how to use and which I don't.\n- This buildup helps me walk on the right paths of improvement, not the paths which repeat same errors.",
+    "tags": [
+      "Why this project"
+    ]
+  },
+  {
+    "title": "Purpose of this project",
+    "details": "Kendo knowledge are stored in people's minds, books, online videos, blogs, etc.\nWhen we face a question, we may struggle to find them.\nThis project is trying to make answer searching a bit easier.\nAfter we know the answer, the next step is to understand them. One day we may find a better answer.",
+    "tags": [
+      "Why this project"
+    ]
+  },
+  {
+    "title": "What we're looking for in a video",
+    "details": "- If the foot work is right\n- If the body work is right\n- If the arm moving and Shinai trajectory is right\n- If the cutting angle (Hasuji)\n- Check mindset at the moment and spirit\n- Find **one or two** points that can be improved, especially the easy points",
     "tags": [
       "Video recording"
     ]
   },
   {
-    "title": "Video as different view",
-    "details": "At practice, we can only see things in our subjective view. Video records provide the possibility to save and see ourselves in the same time but in different view.\nWe can use videos to check which parts we're doing right and which parts we're doing wrong, what is our strength and what is our weakness. Even we got feedback from different Sensei and different people, if we cannot see what we're doing, we cannot understand. Checking the difference between what is right as we know and what we are doing, then we can understand the comments. Without seeing the difference, the future is behind the fog.\nThis is the essential way we can be better, by watching and understanding ourselves. Some people can build the feedback process by self-awareness, and video might be a bit easier. Video recording should help us think and understand how to improve, and it should encourage thinking.",
+    "title": "Videos provide different angle to see ourselves",
+    "details": "At practice, we can only see things in front.\nVideo records provide the way to see ourselves in the same moment but in different view.\nWe can use videos to check which parts we're doing right and which parts we're doing wrong\nwhat is our strength and what is our weakness.\nEven we got feedback from different Sensei and different people, if we cannot see what we're doing, we cannot understand.\nChecking the difference between what is right as we know and what we are doing, then we can understand the comments.\nWithout understanding, the improvement is impossible.",
     "tags": [
       "Video recording"
     ]
   },
   {
-    "title": "What we're recording?",
-    "details": "Recording the video is a way to check what we know, without correct knowledge, it's hard to interpret what just happened.\nHere is an example list of things that's easy to be recognized\nFor Kamae\n- where is the kensen pointing\n- are both the feet facing forward\nFor Suburi\n- Left hand position when cutting and when swing the Shinai\n- Sae 冴え, does left foot catch up when cutting?\n- Tenouchi or hammer-strike\n- Body motion, where is center of gravity\n- Shoulder tense",
+    "title": "Recording Kamae",
+    "details": "- Where is the kensen pointing\n- Are both the feet facing forward\n- How the foot push forward",
     "tags": [
-      "Video recording"
+      "Video recording",
+      "Kamae"
     ]
   },
   {
-    "title": "How to know where am I? There are many people in this video",
+    "title": "Recording Suburi",
+    "details": "- See left hand's position when swing the Shinai and when cutting\n- See if hands move first or body moves first?\n- Sae **冴え**, does left foot catch up when cutting?\n- Tenouchi or hammer-strike\n- Where is center of gravity\n- Shoulder tense",
+    "tags": [
+      "Video recording",
+      "Suburi"
+    ]
+  },
+  {
+    "title": "There are many people in this video. How to know where am I?",
     "details": "- If you cannot tell where you're, maybe have your name on Kendo-Gi or Hakama.\n- Advanced people can easily identify themselves, because I guess they watched themselves many times",
     "tags": [
       "Video recording"
@@ -66,49 +632,49 @@
   },
   {
     "title": "I have the video but it didn't catch the key part",
-    "details": "- Try next time, we cannot expect one video can catch everything, sometimes it's just we were faraway from the camera in practice",
+    "details": "- Try recording next time\n- We cannot expect one video can catch everything\n- Sometimes it's just because we were faraway from the camera in practice",
     "tags": [
       "Video recording"
     ]
   },
   {
     "title": "I forgot recording today, what should I do?",
-    "details": "- It's ok, if some situations repeatedly show, we can catch it next time.",
+    "details": "- It's ok, the good and bad habits repeat themselves, we can catch it next time.",
     "tags": [
       "Video recording"
     ]
   },
   {
-    "title": "Where to store the video",
-    "details": "Video files are normally big and record 1 ~ 2 hours. Several factors affect which method to choose:\n- storage space\n- cost\n- easy access video\n- privacy\n- share with others",
+    "title": "Where to store the video?",
+    "details": "Video files are normally big and are about 1 ~ 2 hours.\nSeveral factors help us to decide which method to choose:\n- File size\n- Cost\n- Easy access video\n- Privacy\n- Sharing",
     "tags": [
       "Video recording"
     ]
   },
   {
     "title": "Store videos on personal computer or cell phone",
-    "details": "- we can easily access the file\n- has limited storage\n- if the device is broken, the video could be broken too\n- hard to share with other people",
+    "details": "- We can easily access the file\n- It has limited storage\n- If the device is broken, the video could be lost\n- It' hard to share with other people",
     "tags": [
       "Video recording"
     ]
   },
   {
     "title": "Store videos on Portable HDD or SSD",
-    "details": "- we can easily access the file\n- normally has bigger storage\n- if the device is broken, we cannot access the data\n- a bit hard to share with many people",
+    "details": "- We can easily access the file\n- It normally has bigger storage\n- If the device is broken, the video could be lost\n- It's a bit hard to share with many people",
     "tags": [
       "Video recording"
     ]
   },
   {
     "title": "Store videos on Cloud storage",
-    "details": "- normally has big storage\n- need download then access the data\n- need pay monthly or annual fee\n- easy to share with others\n- need internet access",
+    "details": "- Normally has big storage\n- Need download then access the data\n- Need pay monthly or annual fee\n- Easy to share with others\n- Need internet access",
     "tags": [
       "Video recording"
     ]
   },
   {
     "title": "Store videos on Youtube",
-    "details": "- unlimited storage space\n- can access anywhere, but need internet access\n- need take time to upload the video\n- need set video as `unlisted` to share with other people, the data are still exposed to anyone, it has privacy issue. Suggest to hide very old videos.\n- the company may use your video to train their AI",
+    "details": "- Unlimited storage space\n- Can access videos anywhere, but need internet access\n- Need take time to upload the video\n- Need set video as `unlisted` to share with other people, the data are still exposed to anyone\n- It has privacy issue.\n- I suggest to hide very old videos.\n- the company may use your video to train their AI",
     "tags": [
       "Video recording"
     ]

@@ -29,11 +29,10 @@ def combine_yaml(input_dir, output_file):
             combined_data.extend(data)
 
     for i in combined_data:
-        if not i.get('details'):
+        if not i.get("details"):
             continue
 
-        i.update({'details': LiteralString(i['details'])})
-
+        i.update({"details": LiteralString(i["details"])})
 
     print("#cards:", len(combined_data))
     with open(output_file, "w", encoding="utf-8") as f:
@@ -44,7 +43,7 @@ def combine_yaml(input_dir, output_file):
             allow_unicode=True,
             sort_keys=False,
             indent=2,
-            width=float("inf")
+            width=float("inf"),
         )
 
     print(f"Combined YAML saved to: {output_file}")

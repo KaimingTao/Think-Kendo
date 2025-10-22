@@ -67,6 +67,10 @@ def main(folder, save_file=None):
         print(file)
         cards.extend(md2yaml_card(file))
 
+    cards.sort(key=lambda x: x['tags'][0])
+
+    print('# Cards', len(cards))
+
     with open(save_file, "w") as f:
         yaml.dump(
             cards,

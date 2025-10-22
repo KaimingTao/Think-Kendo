@@ -34,5 +34,8 @@
     "vite": "^5.1.3",
     "vite-plugin-gh-pages": "^1.0.1",
     "vitest": "^1.5.0"
+  },
+  "dependencies": {
+    "marked": "^16.4.1"
   }
 }
