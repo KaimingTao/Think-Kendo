@@ -1,5 +1,16 @@
 let cardsCache = null;
 
+const cardsImportPath = '../data/cards.json';
+
+const cardsRequestUrl = (() => {
+  try {
+    return new URL(cardsImportPath, import.meta.url).href;
+  } catch (error) {
+    console.warn('Unable to resolve cards.json via import.meta.url, falling back to relative path', error);
+    return 'data/cards.json';
+  }
+})();
+
 const cardPalette = [
   '#fde68a',
   '#bfdbfe',
@@ -103,7 +114,7 @@ function shuffleCards(cards) {
 
 async function loadFromImport() {
   try {
-    const module = await import('../data/cards.json');
+    const module = await import(cardsImportPath, { assert: { type: 'json' } });
     const payload = module.default ?? module;
     if (!Array.isArray(payload)) {
       return null;
@@ -111,13 +122,23 @@ async function loadFromImport() {
 
     return payload;
   } catch (error) {
-    console.warn('Falling back to network fetch for cards', error);
+    try {
+      const module = await import(cardsImportPath);
+      const payload = module.default ?? module;
+      if (!Array.isArray(payload)) {
+        return null;
+      }
+
+      return payload;
+    } catch (nestedError) {
+      console.warn('Falling back to network fetch for cards', nestedError);
+    }
     return null;
   }
 }
 
 async function loadFromNetwork() {
-  const response = await fetch('data/cards.json', { cache: 'no-store' });
+  const response = await fetch(cardsRequestUrl, { cache: 'no-store' });
 
   if (!response.ok) {
     throw new Error(`Cards request failed with status ${response.status}`);
