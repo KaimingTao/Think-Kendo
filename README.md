@@ -5,11 +5,11 @@
 
 ## Purpose of this project
 
-Kendo knowledge are stored in people's minds, books, online videos, blogs, etc.
-When we face a question, we may struggle to find them.
-This project is trying to make answer searching a bit easier.
+Kendo knowledge are stored in people's minds, books, online videos, blogs, etc. When we face a question, we may struggle to find the answer.
 
-After we know the answer, the next step is to understand them. One day we may find a better answer.
+This project is trying to make answer-searching a bit easier.
+
+After we know the answer, the next step is to understand them. One day we may find a better one.
 
 
 ## How to use the web note
