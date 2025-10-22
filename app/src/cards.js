@@ -1,6 +1,6 @@
 let cardsCache = null;
 
-const cardsImportPath = '../data/cards.json';
+const cardsImportPath = './data/cards.json';
 
 const cardsRequestUrl = (() => {
   try {
