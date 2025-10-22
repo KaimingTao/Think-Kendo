@@ -1,9 +1,52 @@
-import { marked } from 'marked';
+const MARKED_CDN_URL = 'https://cdn.jsdelivr.net/npm/marked@16.4.1/lib/marked.esm.js';
 
-marked.setOptions({
-  breaks: true,
-  gfm: true,
-});
+let markedPromise = null;
+
+function resolveMarkedInstance() {
+  if (markedPromise) {
+    return markedPromise;
+  }
+
+  markedPromise = (async () => {
+    const existing = globalThis.marked;
+    if (existing && typeof existing.parse === 'function') {
+      return existing;
+    }
+
+    try {
+      const module = await import('marked');
+      const candidate = module.marked ?? module.default ?? module;
+      if (candidate && typeof candidate.parse === 'function') {
+        return candidate;
+      }
+    } catch (error) {
+      console.warn('Falling back to CDN marked import', error);
+    }
+
+    const fallback = await import(MARKED_CDN_URL);
+    const candidate = fallback.marked ?? fallback.default ?? fallback;
+    if (!candidate || typeof candidate.parse !== 'function') {
+      throw new Error('Unable to load marked parser');
+    }
+
+    return candidate;
+  })()
+    .then((instance) => {
+      if (typeof instance.setOptions === 'function') {
+        instance.setOptions({
+          breaks: true,
+          gfm: true,
+        });
+      }
+      return instance;
+    })
+    .catch((error) => {
+      markedPromise = null;
+      throw error;
+    });
+
+  return markedPromise;
+}
 
 const FOCUSABLE_SELECTOR = [
   'a[href]',
@@ -42,24 +85,32 @@ function normalizeToText(value) {
 
 function renderMarkdown(target, markdown) {
   if (!target) {
-    return false;
+    return Promise.resolve(false);
   }
 
   const text = typeof markdown === 'string' ? markdown.trim() : '';
   if (!text) {
-    return false;
+    return Promise.resolve(false);
   }
 
-  const html = marked.parse(text);
-  if (!html) {
-    return false;
-  }
+  return resolveMarkedInstance()
+    .then((instance) => {
+      const parser = typeof instance.parse === 'function' ? instance.parse.bind(instance) : null;
+      const html = parser ? parser(text) : '';
+      if (!html) {
+        return false;
+      }
 
-  target.innerHTML = html;
-  target.querySelectorAll('ul').forEach((list) => {
-    list.classList.add('modal__list');
-  });
-  return true;
+      target.innerHTML = html;
+      target.querySelectorAll('ul').forEach((list) => {
+        list.classList.add('modal__list');
+      });
+      return true;
+    })
+    .catch((error) => {
+      console.error('Failed to render markdown content', error);
+      return false;
+    });
 }
 
 function getFocusableElements(container) {
@@ -223,6 +274,7 @@ export function createModalController(root) {
       }
 
       content.innerHTML = '';
+      content.hidden = true;
 
       const listItems = Array.isArray(card.details)
         ? card.details
@@ -254,10 +306,27 @@ export function createModalController(root) {
           || '';
       }
 
-      const rendered = renderMarkdown(content, markdownSource);
-      if (!rendered && markdownSource) {
-        content.textContent = markdownSource;
-      }
+      const fallbackText = markdownSource || detailsTextForFallback || summaryTextCandidate || '';
+
+      renderMarkdown(content, markdownSource)
+        .then((rendered) => {
+          if (rendered) {
+            content.hidden = false;
+            return;
+          }
+
+          if (fallbackText) {
+            content.textContent = fallbackText;
+            content.hidden = false;
+          }
+        })
+        .catch(() => {
+          if (fallbackText) {
+            content.textContent = fallbackText;
+            content.hidden = false;
+          }
+        });
+
       if (card.backgroundColor) {
         dialog.style.background = card.backgroundColor;
       } else {
