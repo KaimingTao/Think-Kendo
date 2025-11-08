@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build && cpy data dist/data --recursive",
+    "build": "vite build && rimraf dist/data && cpy ../data dist --recursive",
     "preview": "vite preview",
     "lint": "npm run lint:js && npm run lint:css && npm run lint:format",
     "lint:js": "eslint \"src/**/*.{js,jsx}\" \"tests/**/*.js\" --max-warnings=0",

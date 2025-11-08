@@ -1,5 +1,8 @@
 import { defineConfig } from 'vite';
 import { resolve } from 'node:path';
+
+const workspaceRoot = resolve(__dirname, '..');
+
 export default defineConfig({
   root: '.',
   base: './',
@@ -10,6 +13,9 @@ export default defineConfig({
   },
   server: {
     open: true,
+    fs: {
+      allow: [workspaceRoot, __dirname],
+    },
   },
   preview: {
     open: true,

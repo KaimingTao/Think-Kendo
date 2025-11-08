@@ -3,7 +3,7 @@
 ## Project Structure & Module Organization
 - `index.html` is the entry point; it loads the responsive card grid and modal logic.
 - `src/` holds modular scripts (`src/cards.js`, `src/modal.js`) and shared utilities.
-- `data/cards.json` stores card metadata (`id`, `title`, `summary`, `details`, `tags`).
+- `../data/cards.md` stores card metadata (`title`, `summary`, `details`, `tags`).
 - `assets/styles/` contains compiled CSS; author SCSS in `assets/styles/scss/`.
 - `assets/images/` keeps optimized `.webp` thumbnails referenced by card entries.
 - `docs/` mirrors the production-ready bundle pushed to GitHub Pages (built from `dist/`).
@@ -33,6 +33,6 @@
 - Ensure `npm run lint` and relevant tests pass; update `docs/` from the latest `dist/` before merging.
 
 ## Content Workflow
-- Add new cards via `data/cards.json`, keeping body text Markdown-friendly for future parsing.
+- Add new cards via `../data/cards.md`, keeping body text Markdown-friendly for future parsing.
 - Store supporting assets under `assets/images/` and reference them in the card entry.
 - Validate copy for accessibility (clear titles, concise summaries) and include `alt` text for every image.

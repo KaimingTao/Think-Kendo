@@ -4,7 +4,7 @@ let cardsCache = null;
 
 const cardsRequestUrl = (() => {
   try {
-    return new URL('../data/cards.md', import.meta.url).href;
+    return new URL('../../data/cards.md', import.meta.url).href;
   } catch (error) {
     console.warn('Unable to resolve cards.md via import.meta.url, falling back to relative path', error);
     return 'data/cards.md';
@@ -292,8 +292,12 @@ function loadFromBundle() {
   }
 
   try {
-    const modules = import.meta.glob('../data/cards.md', { eager: true, as: 'raw' });
-    const module = modules['../data/cards.md'];
+    const modules = import.meta.glob('../../data/cards.md', {
+      eager: true,
+      import: 'default',
+      query: '?raw',
+    });
+    const module = modules['../../data/cards.md'];
     if (!module) {
       return null;
     }
