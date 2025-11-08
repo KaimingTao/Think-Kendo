@@ -4,10 +4,10 @@ let cardsCache = null;
 
 const cardsRequestUrl = (() => {
   try {
-    return new URL('../data/cards.json', import.meta.url).href;
+    return new URL('../data/cards.md', import.meta.url).href;
   } catch (error) {
-    console.warn('Unable to resolve cards.json via import.meta.url, falling back to relative path', error);
-    return 'data/cards.json';
+    console.warn('Unable to resolve cards.md via import.meta.url, falling back to relative path', error);
+    return 'data/cards.md';
   }
 })();
 
@@ -83,6 +83,144 @@ function renderDetailsHtml(markdownSource) {
   return typeof html === 'string' ? html.trim() : '';
 }
 
+function parseTagsLine(line) {
+  const match = /^tags\s*:\s*(.+)$/i.exec(line);
+  if (!match) {
+    return [];
+  }
+
+  return match[1]
+    .split(',')
+    .map((tag) => tag.trim())
+    .filter(Boolean);
+}
+
+function extractSummary(lines) {
+  const bulletPattern = /^[-*+]\s+(.*)$/;
+  for (const line of lines) {
+    const trimmed = line.trim();
+    if (!trimmed) {
+      continue;
+    }
+
+    const bullet = bulletPattern.exec(trimmed);
+    if (bullet) {
+      return bullet[1].trim();
+    }
+
+    return trimmed;
+  }
+
+  return '';
+}
+
+function prepareDetails(lines) {
+  const bulletPattern = /^[-*+]\s+(.*)$/;
+  const bulletItems = [];
+  let hasNonBulletContent = false;
+
+  lines.forEach((line) => {
+    const trimmed = line.trim();
+    if (!trimmed) {
+      return;
+    }
+
+    const bullet = bulletPattern.exec(trimmed);
+    if (bullet) {
+      bulletItems.push(bullet[1].trim());
+      return;
+    }
+
+    hasNonBulletContent = true;
+  });
+
+  if (bulletItems.length > 0 && !hasNonBulletContent) {
+    return bulletItems;
+  }
+
+  const joined = lines.join('\n').trim();
+  return joined;
+}
+
+function parseMarkdownSection(section) {
+  const normalized = section.replace(/\r\n/g, '\n').trim();
+  if (!normalized) {
+    return null;
+  }
+
+  const lines = normalized.split('\n');
+  let title = '';
+  let contentLines = [];
+  let tags = [];
+
+  for (let index = 0; index < lines.length; index += 1) {
+    const line = lines[index];
+    if (!title) {
+      const match = /^##\s*(.+)$/.exec(line.trim());
+      if (match) {
+        title = match[1].trim();
+      }
+      continue;
+    }
+
+    const tagsMatch = parseTagsLine(line);
+    if (tagsMatch.length > 0) {
+      tags = tagsMatch;
+      continue;
+    }
+
+    contentLines.push(line);
+  }
+
+  if (!title) {
+    return null;
+  }
+
+  // Trim empty lines from start and end of content.
+  while (contentLines.length > 0 && contentLines[0].trim() === '') {
+    contentLines.shift();
+  }
+  while (contentLines.length > 0 && contentLines[contentLines.length - 1].trim() === '') {
+    contentLines.pop();
+  }
+
+  const summary = extractSummary(contentLines);
+  const details = prepareDetails(contentLines);
+
+  return {
+    title,
+    summary,
+    details,
+    tags,
+  };
+}
+
+function parseCardsMarkdown(markdownSource) {
+  const source = typeof markdownSource === 'string' ? markdownSource.trim() : '';
+  if (!source) {
+    return [];
+  }
+
+  const normalized = source.replace(/\r\n/g, '\n');
+  const sections = normalized
+    .split(/\n-{3,}\n/g)
+    .map((section) => section.trim())
+    .filter(Boolean);
+
+  return sections
+    .map((section) => parseMarkdownSection(section))
+    .filter((card) => card && typeof card.title === 'string');
+}
+
+export function parseCardsContent(rawContent) {
+  const text = typeof rawContent === 'string' ? rawContent.trim() : '';
+  if (!text) {
+    return [];
+  }
+
+  return parseCardsMarkdown(text);
+}
+
 function normalizeCards(raw) {
   if (!Array.isArray(raw)) {
     return [];
@@ -154,18 +292,14 @@ function loadFromBundle() {
   }
 
   try {
-    const modules = import.meta.glob('../data/cards.json', { eager: true });
-    const module = modules['../data/cards.json'];
+    const modules = import.meta.glob('../data/cards.md', { eager: true, as: 'raw' });
+    const module = modules['../data/cards.md'];
     if (!module) {
       return null;
     }
 
-    const payload = module.default ?? module;
-    if (!Array.isArray(payload)) {
-      return null;
-    }
-
-    return payload;
+    const payload = typeof module === 'string' ? module : module.default ?? module;
+    return parseCardsContent(payload);
   } catch (error) {
     console.warn('Unable to load cards bundle via import.meta.glob', error);
     return null;
@@ -179,12 +313,8 @@ async function loadFromNetwork() {
     throw new Error(`Cards request failed with status ${response.status}`);
   }
 
-  const payload = await response.json();
-  if (!Array.isArray(payload)) {
-    return [];
-  }
-
-  return payload;
+  const payload = await response.text();
+  return parseCardsContent(payload);
 }
 
 export function prepareCards(rawCards, { shuffle = true } = {}) {

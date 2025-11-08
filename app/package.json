@@ -4,7 +4,6 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "prebuild": "python3 data/yaml2json.py -i data/cards.yaml",
     "dev": "vite",
     "build": "vite build && cpy data dist/data --recursive",
     "preview": "vite preview",

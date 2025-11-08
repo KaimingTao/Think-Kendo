@@ -1,4 +1,4 @@
-import { fetchCards, renderCardGrid, prepareCards } from './cards.js';
+import { fetchCards, renderCardGrid, prepareCards, parseCardsContent } from './cards.js';
 import { cardsLastModified } from './cards-metadata.js';
 import { createModalController } from './modal.js';
 
@@ -82,7 +82,7 @@ if (!searchInput) {
 
 const uploadInput = document.createElement('input');
 uploadInput.type = 'file';
-uploadInput.accept = 'application/json,.json';
+uploadInput.accept = 'text/markdown,.md';
 uploadInput.id = 'cards-upload';
 uploadInput.hidden = true;
 
@@ -234,7 +234,7 @@ function reportUploadError(message) {
 
 function hydrateFromUploadedCards(rawCards) {
   if (!Array.isArray(rawCards)) {
-    throw new Error('Cards file must contain a JSON array.');
+    throw new Error('Cards file must resolve to a list of cards.');
   }
 
   const prepared = prepareCards(rawCards, { shuffle: false });
@@ -272,7 +272,11 @@ function handleFileSelection(file) {
         throw new Error('Cards file was empty.');
       }
 
-      const parsed = JSON.parse(textContent);
+      const parsed = parseCardsContent(textContent);
+      if (!Array.isArray(parsed) || parsed.length === 0) {
+        throw new Error('Cards file did not contain any cards.');
+      }
+
       hydrateFromUploadedCards(parsed);
     } catch (error) {
       console.error('Failed to load cards file', error);
